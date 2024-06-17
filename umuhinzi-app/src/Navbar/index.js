@@ -21,7 +21,7 @@ const Navbar =()=>{
       <div className='landing_page'>
             <div className='text'>
 
-           <h1>Empowering Agriculture</h1>
+           <h1>Empowering Agricultures</h1>
            <h1>for a SustainableFuture</h1>
            <div/>
 
