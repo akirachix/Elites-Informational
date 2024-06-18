@@ -1,0 +1,436 @@
+.products{
+    margin-left: 23%;
+} 
+.webapp{
+    display: flex;
+    gap: 15%;
+}
+.appinfo{
+margin-top: 10px;
+}
+.ussd{
+    display: flex;
+    margin-top: 40px;
+    gap: 15%;
+} 
+.ussdinfo{
+    margin-top: 60px;  
+    /* display: flex; */ p{
+        font-size: 15px;
+    }
+}
+
+H1{
+    margin-left: 30%;
+    font-size: 40px;
+
+}
+.img{
+    width: 350px;
+    height: 350px;
+}
+p{
+    font-size: 20px;
+}
+@media only screen and (max-width: 667px) and (min-width: 300px){
+    .webapp{
+        display: grid;
+        gap: 15px;
+    }
+    .ussd{
+        display: grid;
+        margin-top: 40px;
+        gap: 15px;
+    } 
+    .img{
+        width: 370px;
+        
+    }
+    .products{
+        margin-left: 5px;
+
+    } 
+    p{
+        font-size: 15px;
+    }
+
+    }
+    @media only screen and (max-width: 898px) and (min-width: 414px){
+        .webapp{
+            display: grid;
+            gap: 15px;
+        }
+        .ussd{
+            display: grid;
+            margin-top: 40px;
+            gap: 15px;
+        } 
+        .img{
+            width: 60px;
+            
+        }
+        .products{
+            margin-left: 5px;
+        } 
+        p{
+            font-size: 15px;
+        }
+
+    }
+    @media only screen and (max-width: 844px) and (min-width: 390px){
+        .webapp{
+            display: grid;
+            gap: 15px;
+        }
+        .ussd{
+            display: grid;
+            margin-top: 40px;
+            gap: 15px;
+        } 
+        .img{
+            width: 270px;
+            
+        }
+        .products{
+            margin-left: 10px;
+            display: grid;
+        } 
+        p{
+            font-size: 15px;
+        }
+
+    }
+    @media only screen and (max-width: 932px) and (min-width: 430px){
+        .webapp{
+            display: grid;
+            gap: 15px;
+        }
+        .ussd{
+            display: grid;
+            margin-top: 40px;
+            gap: 15px;
+        } 
+        .img{
+            width: 270px;
+            
+        }
+        .products{
+            margin-left: 10px;
+            
+        } 
+        p{
+            font-size: 15px;
+        }
+        h1{
+            margin-left: 10px;
+        }
+
+    }
+    @media only screen and (max-width: 915px) and (min-width: 412px){
+        .webapp{
+            display: grid;
+            gap: 15px;
+        }
+        .ussd{
+            display: grid;
+            margin-top: 40px;
+            gap: 15px;
+        } 
+        .img{
+            width: 270px;
+            
+        }
+        .products{
+            margin-left: 10px;
+            
+        } 
+        p{
+            font-size: 15px;
+        }
+        h1{
+            margin-left: 10px;
+        }
+    }
+    @media only screen and (max-width: 740px) and (min-width: 360px){
+        .webapp{
+            display: grid;
+            gap: 15px;
+        }
+        .ussd{
+            display: grid;
+            margin-top: 40px;
+            gap: 15px;
+        } 
+        .img{
+            width: 270px;
+            
+        }
+        .products{
+            margin-left: 10px;
+            
+        } 
+        p{
+            font-size: 15px;
+        }
+        h1{
+            margin-left: 10px;
+        }
+    }
+    @media only screen and (max-width: 1024px) and (min-width: 768px){
+        .webapp{
+            display: grid;
+            gap: 15px;
+        }
+        .ussd{
+            display: grid;
+            margin-top: 40px;
+            gap: 15px;
+        } 
+        .img{
+            width: 270px;
+            
+        }
+        .products{
+            margin-left: 200px;
+            
+        } 
+        p{
+            font-size: 15px;
+        }
+        h1{
+            margin-left: 10px;
+        }
+    }
+    @media only screen and (max-width: 1180px) and (min-width: 820px){
+        .webapp{
+            display: grid;
+            gap: 15px;
+        }
+        .ussd{
+            display: grid;
+            margin-top: 40px;
+            gap: 15px;
+        } 
+        .img{
+            width: 270px;
+            
+        }
+        .products{
+            margin-left: 200px;
+            
+        } 
+        p{
+            font-size: 15px;
+        }
+        h1{
+            margin-left: 10px;
+        }
+
+    }
+    @media only screen and (max-width: 1366px) and (min-width: 1024px){
+        .webapp{
+            display: grid;
+            gap: 15px;
+        }
+        .ussd{
+            display: grid;
+            margin-top: 40px;
+            gap: 15px;
+        } 
+        .img{
+            width: 270px;
+            
+        }
+        .products{
+            margin-left: 280px;
+            
+        } 
+        p{
+            font-size: 15px;
+        }
+        h1{
+            margin-left: 10px;
+        }
+    }
+    @media only screen and (max-width: 1368px) and (min-width: 912px){
+        .webapp{
+            display: grid;
+            gap: 15px;
+        }
+        .ussd{
+            display: grid;
+            margin-top: 40px;
+            gap: 15px;
+        } 
+        .img{
+            width: 270px;
+            
+        }
+        .products{
+            margin-left: 280px;
+            
+        } 
+        p{
+            font-size: 15px;
+        }
+        h1{
+            margin-left: 10px;
+        }   
+    }
+    @media only screen and (max-width: 720px) and (min-width: 540px){
+        .webapp{
+            display: grid;
+            gap: 15px;
+        }
+        .ussd{
+            display: grid;
+            margin-top: 40px;
+            gap: 15px;
+        } 
+        .img{
+            width: 270px;
+            
+        }
+        .products{
+            margin-left: 90px;
+            
+        } 
+        p{
+            font-size: 15px;
+        }
+        h1{
+            margin-left: 10px;
+        }
+    }
+    @media only screen and (max-width: 1366px) and (min-width: 1024px){
+        .webapp{
+            display: grid;
+            gap: 15px;
+        }
+        .ussd{
+            display: grid;
+            margin-top: 40px;
+            gap: 15px;
+        } 
+        .img{
+            width: 270px;
+            
+        }
+        .products{
+            margin-left: 280px;
+            
+        } 
+        p{
+            font-size: 15px;
+        }
+        h1{
+            margin-left: 10px;
+        }
+    }
+    @media only screen and (max-width: 882px) and (min-width: 344px){
+        .webapp{
+            display: grid;
+            gap: 15px;
+        }
+        .ussd{
+            display: grid;
+            margin-top: 40px;
+            gap: 15px;
+        } 
+        .img{
+            width: 270px;
+            
+        }
+        .products{
+            margin-left: 10px;
+            
+        } 
+        p{
+            font-size: 15px;
+        }
+        h1{
+            margin-left: 10px;
+        }
+    }
+    @media only screen and (max-width: 1280px) and (min-width: 853px){
+        .webapp{
+            display: grid;
+            gap: 15px;
+        }
+        .ussd{
+            display: grid;
+            margin-top: 40px;
+            gap: 15px;
+        } 
+        .img{
+            width: 270px;
+            
+        }
+        .products{
+            margin-left: 280px;
+            
+        } 
+        p{
+            font-size: 15px;
+        }
+        h1{
+            margin-left: 10px;
+        }
+    }
+    @media only screen and (max-width: 1024px) and (min-width: 600px){
+        .webapp{
+            display: grid;
+            gap: 15px;
+        }
+        .ussd{
+            display: grid;
+            margin-top: 40px;
+            gap: 15px;
+        } 
+        .img{
+            width: 270px;
+            
+        }
+        .products{
+            margin-left: 280px;
+            
+        } 
+        p{
+            font-size: 15px;
+        }
+        h1{
+            margin-left: 10px;
+        }
+    }
+    @media only screen and (max-width: 1280px) and (min-width: 800px){
+        .webapp{
+            display: grid;
+            gap: 15px;
+        }
+        .ussd{
+            display: grid;
+            margin-top: 40px;
+            gap: 15px;
+            
+        } 
+        .img{
+            width: 270px;
+            
+        }
+        .products{
+            margin-left: 320px;
+            
+        } 
+        p{
+            font-size: 15px;
+        }
+        h1{
+            margin-left: 10px;
+        }  
+    }
+    
+
+
+
+
+
