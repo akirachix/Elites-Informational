@@ -1,0 +1,105 @@
+.team{
+    display: flex;
+   justify-content: space-between;
+
+}
+#img1{
+  width: 200px;
+  height: 200px;
+  border-radius: 60%;
+}
+#img2{
+    width: 200px;
+    height: 200px;
+    border-radius: 60%;
+  }
+  #img3{
+    width: 200px;
+    height: 200px;
+    border-radius: 60%;
+  }
+  #img4{
+    width: 200px;
+    height: 200px;
+    border-radius: 60%;
+  }
+  #img5{
+    width: 200px;
+    height: 200px;
+    border-radius: 60%;
+  }
+  /* Team.css */
+
+.Team {
+    width: 100%;
+    margin: 40px auto;
+     background-color: #25b08b;
+    border: 1px solid #ddd;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+
+  }
+  
+  #heading {
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .team {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+  
+  .team-member {
+    margin: 20px;
+    width: calc(20% - 20px);
+  }
+  
+  .team-member img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 10px;
+  }
+  
+  .team-member p {
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 10px;
+    text-align: center;
+  }
+  
+  /* Media Queries */
+  
+  /* For small screens (mobile) */
+  @media only screen and (max-width: 768px) {
+    .team {
+      flex-direction: column;
+    }
+    .team-member {
+      width: 100%;
+      margin-bottom: 20px;
+    }
+  }
+  
+  /* For medium screens (tablet) */
+  @media only screen and (min-width: 769px) and (max-width: 1024px) {
+    .team {
+      flex-wrap: wrap;
+    }
+    .team-member {
+      width: calc(33.33% - 20px);
+    }
+  }
+  
+  /* For large screens (desktop) */
+  @media only screen and (min-width: 1025px) {
+    .team {
+      flex-wrap: wrap;
+    }
+    .team-member {
+      width: calc(20% - 20px);
+    }
+  }
