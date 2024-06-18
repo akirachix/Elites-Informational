@@ -1,5 +1,5 @@
 .products{
-    margin-left: 23%;
+    margin-left: 15%;
 } 
 .webapp{
     display: flex;
@@ -7,31 +7,32 @@
 }
 .appinfo{
 margin-top: 10px;
+font-size: 30px;
 }
 .ussd{
     display: flex;
     margin-top: 40px;
     gap: 15%;
 } 
+
 .ussdinfo{
     margin-top: 60px;  
-    /* display: flex; */ p{
-        font-size: 15px;
+    font-size: 30px;
     }
+.app{
+    font-size: 25px;
 }
 
-H1{
+ H1{
     margin-left: 30%;
-    font-size: 40px;
+    font-size: 45px;
 
-}
+} 
 .img{
     width: 350px;
     height: 350px;
 }
-p{
-    font-size: 20px;
-}
+
 @media only screen and (max-width: 667px) and (min-width: 300px){
     .webapp{
         display: grid;
@@ -47,12 +48,22 @@ p{
         
     }
     .products{
-        margin-left: 5px;
+        margin-left: 10px;
 
     } 
-    p{
-        font-size: 15px;
-    }
+    .ussdinfo{
+        margin-top: 60px;  
+        font-size: 20px;
+        }
+    .appinfo{
+            margin-top: 10px;
+            font-size: 20px;
+            }
+    .app{
+         font-size: 20px;
+            }
+
+   
 
     }
     @media only screen and (max-width: 898px) and (min-width: 414px){
@@ -70,11 +81,17 @@ p{
             
         }
         .products{
-            margin-left: 5px;
+            margin-left: 7px;
         } 
-        p{
-            font-size: 15px;
-        }
+        .ussdinfo{
+            margin-top: 60px;  
+            font-size: 20px;
+            }
+        .appinfo{
+                margin-top: 10px;
+                font-size: 20px;
+                }
+      
 
     }
     @media only screen and (max-width: 844px) and (min-width: 390px){
@@ -92,12 +109,17 @@ p{
             
         }
         .products{
-            margin-left: 10px;
+            margin-left: 12px;
             display: grid;
         } 
-        p{
-            font-size: 15px;
-        }
+        .appinfo{
+            margin-top: 10px;
+            font-size: 20px;
+            }
+        .app{
+         font-size: 20px;
+            }
+       
 
     }
     @media only screen and (max-width: 932px) and (min-width: 430px){
@@ -118,12 +140,18 @@ p{
             margin-left: 10px;
             
         } 
-        p{
-            font-size: 15px;
-        }
+        
         h1{
             margin-left: 10px;
         }
+        ussdinfo{
+            margin-top: 60px;  
+            font-size: 20px;
+            }
+        .appinfo{
+                margin-top: 10px;
+                font-size: 20px;
+                }
 
     }
     @media only screen and (max-width: 915px) and (min-width: 412px){
@@ -141,15 +169,21 @@ p{
             
         }
         .products{
-            margin-left: 10px;
+            margin-left: 15px;
             
         } 
-        p{
-            font-size: 15px;
-        }
+        
         h1{
             margin-left: 10px;
         }
+        ussdinfo{
+            margin-top: 60px;  
+            font-size: 20px;
+            }
+        .appinfo{
+                margin-top: 10px;
+                font-size: 20px;
+                }
     }
     @media only screen and (max-width: 740px) and (min-width: 360px){
         .webapp{
@@ -166,15 +200,21 @@ p{
             
         }
         .products{
-            margin-left: 10px;
+            margin-left: 7px;
             
         } 
-        p{
-            font-size: 15px;
-        }
+       
         h1{
             margin-left: 10px;
         }
+        ussdinfo{
+            margin-top: 60px;  
+            font-size: 20px;
+            }
+        .appinfo{
+                margin-top: 10px;
+                font-size: 20px;
+                }
     }
     @media only screen and (max-width: 1024px) and (min-width: 768px){
         .webapp{
@@ -191,15 +231,23 @@ p{
             
         }
         .products{
-            margin-left: 200px;
+            margin-left: 60px
+            
+        
             
         } 
-        p{
-            font-size: 15px;
-        }
+        
         h1{
             margin-left: 10px;
         }
+        ussdinfo{
+            margin-top: 60px;  
+            font-size: 20px;
+            }
+        .appinfo{
+                margin-top: 10px;
+                font-size: 20px;
+                }
     }
     @media only screen and (max-width: 1180px) and (min-width: 820px){
         .webapp{
@@ -216,15 +264,21 @@ p{
             
         }
         .products{
-            margin-left: 200px;
+            margin-left: 150px;
             
         } 
-        p{
-            font-size: 15px;
-        }
+       
         h1{
             margin-left: 10px;
         }
+        ussdinfo{
+            margin-top: 60px;  
+            font-size: 20px;
+            }
+        .appinfo{
+                margin-top: 10px;
+                font-size: 20px;
+                }
 
     }
     @media only screen and (max-width: 1366px) and (min-width: 1024px){
@@ -245,12 +299,18 @@ p{
             margin-left: 280px;
             
         } 
-        p{
-            font-size: 15px;
-        }
+        
         h1{
             margin-left: 10px;
         }
+        ussdinfo{
+            margin-top: 60px;  
+            font-size: 20px;
+            }
+        .appinfo{
+                margin-top: 10px;
+                font-size: 30px;
+                }
     }
     @media only screen and (max-width: 1368px) and (min-width: 912px){
         .webapp{
@@ -267,15 +327,22 @@ p{
             
         }
         .products{
-            margin-left: 280px;
+            margin-left:150px;
+            
             
         } 
-        p{
-            font-size: 15px;
-        }
+       
         h1{
             margin-left: 10px;
-        }   
+        } 
+        ussdinfo{
+            margin-top: 60px;  
+            font-size: 20px;
+            }
+        .appinfo{
+                margin-top: 10px;
+                font-size: 20px;
+                }  
     }
     @media only screen and (max-width: 720px) and (min-width: 540px){
         .webapp{
@@ -295,12 +362,18 @@ p{
             margin-left: 90px;
             
         } 
-        p{
-            font-size: 15px;
-        }
+        
         h1{
             margin-left: 10px;
         }
+        ussdinfo{
+            margin-top: 60px;  
+            font-size: 20px;
+            }
+        .appinfo{
+                margin-top: 10px;
+                font-size: 20px;
+                }
     }
     @media only screen and (max-width: 1366px) and (min-width: 1024px){
         .webapp{
@@ -320,12 +393,18 @@ p{
             margin-left: 280px;
             
         } 
-        p{
-            font-size: 15px;
-        }
+        
         h1{
             margin-left: 10px;
         }
+        ussdinfo{
+            margin-top: 60px;  
+            font-size: 20px;
+            }
+        .appinfo{
+                margin-top: 10px;
+                font-size: 20px;
+                }
     }
     @media only screen and (max-width: 882px) and (min-width: 344px){
         .webapp{
@@ -345,12 +424,18 @@ p{
             margin-left: 10px;
             
         } 
-        p{
-            font-size: 15px;
-        }
+        
         h1{
             margin-left: 10px;
         }
+        ussdinfo{
+            margin-top: 60px;  
+            font-size: 20px;
+            }
+        .appinfo{
+                margin-top: 10px;
+                font-size: 20px;
+                }
     }
     @media only screen and (max-width: 1280px) and (min-width: 853px){
         .webapp{
@@ -370,12 +455,18 @@ p{
             margin-left: 280px;
             
         } 
-        p{
-            font-size: 15px;
-        }
+       
         h1{
             margin-left: 10px;
         }
+        ussdinfo{
+            margin-top: 60px;  
+            font-size: 20px;
+            }
+        .appinfo{
+                margin-top: 10px;
+                font-size: 20px;
+                }
     }
     @media only screen and (max-width: 1024px) and (min-width: 600px){
         .webapp{
@@ -392,15 +483,21 @@ p{
             
         }
         .products{
-            margin-left: 280px;
+            margin-left: 300px;
             
         } 
-        p{
-            font-size: 15px;
-        }
+       
         h1{
             margin-left: 10px;
         }
+        ussdinfo{
+            margin-top: 60px;  
+            font-size: 20px;
+            }
+        .appinfo{
+                margin-top: 10px;
+                font-size: 20px;
+                }
     }
     @media only screen and (max-width: 1280px) and (min-width: 800px){
         .webapp{
@@ -421,12 +518,18 @@ p{
             margin-left: 320px;
             
         } 
-        p{
-            font-size: 15px;
-        }
+        
         h1{
             margin-left: 10px;
         }  
+        ussdinfo{
+            margin-top: 60px;  
+            font-size: 20px;
+            }
+        .appinfo{
+                margin-top: 10px;
+                font-size: 20px;
+                }
     }
     
 

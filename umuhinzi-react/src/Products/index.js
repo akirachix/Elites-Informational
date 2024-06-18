@@ -8,7 +8,9 @@ function Products(){
        
         <div className='products'>
             <h1>Products</h1>
-            <h3>Umuhinzi Web App</h3>
+            <div className = 'app'>
+            <h2>Umuhinzi Web App</h2>
+            </div>
             <div className='webapp'>
            <div>
            <img src={app} alt='app img'/>
