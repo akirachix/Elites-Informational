@@ -71,12 +71,12 @@
     text-align: center;
   }
   
-  /* Media Queries */
-  
-  /* For small screens (mobile) */
+
   @media only screen and (max-width: 768px) {
     .team {
       flex-direction: column;
+      padding-left: 100px;
+
     }
     .team-member {
       width: 100%;
@@ -84,10 +84,11 @@
     }
   }
   
-  /* For medium screens (tablet) */
+
   @media only screen and (min-width: 769px) and (max-width: 1024px) {
     .team {
       flex-wrap: wrap;
+      
     }
     .team-member {
       width: calc(33.33% - 20px);
