@@ -1,51 +1,119 @@
 .icons{
-    width: 60%; 
-    margin-left: 9px;
-    margin-top: 180px;
+    width: 30px; 
     margin-right: 0px;
+ }
+
+ .twitterIcons{
+    width: 35px; 
+    /* margin-top: 1px; */
  }
  
  .fbIcons{
-    width: 80%;
-    margin-top: 170px;
-    margin-bottom: 10px;
-    /* margin-right: 20px; */
+    width: 35px;
  }
 
- .igIcons{
-    width: 55%; 
-    margin-left: 9px;
-    margin-top: 180px;
+ .pins{
+    width: 30px;
+    /* margin-top: 10px; */
+ }
+
+ .umuhinzi{
+    width: 150px;
+    margin-left: 100px;
+    margin-bottom: 5px;
+ }
+
+ .content{
+    margin-top: 10px;
+  }  
+
+ .socialmedia{
+    gap: 20px;
+    display: flex;
+    /* margin-bottom: 10px; */
+    margin-left: 40px;
+ }
+
+ .tea_farm{
+    width: 110px;
+    height: 105px;
+    border-radius: 20px;
+    margin-top: 10px;
+ }
+
+ .ussdpic{
+    width: 110px;
+ }
+
+ .laptop{
+    width: 180px;
+    margin-left: 40px;
+ }
+
+ .pics{
+    display: flex;
+    gap: 15px;
+    margin-right: 40px;
+ }
+
+ .contacts{
+    display: flex;
+    gap: 10px;
+ }
+
+ .exploretext{
+    margin-top: 20px;
+ }
+
+ .phonepin{
+    width: 37px;
+ }
+
+ .explorecontent{
+    margin-top: 45px;
+    /* gap: 10px; */
+ }
+ 
+
+ /* .gmail{
+    margin-right: 10px;
+ } */
+ /* .igIcons{
+    width: 40%; 
+    /* margin-left: 9px; */
+    /* margin-top: 180px; */
     /* margin-right: 0px; */
- }
+ /* }  */
 
-.twitterIcons{
-    width: 60%; 
-    margin-left: 9px;
-    margin-top: 180px;
- }
+/* .twitterIcons{ */
+    /* width: 40%;  */
+    /* margin-left: 9px; */
+    /* margin-top: 180px;
+ } */
  
  .footer{
      justify-content: center;
      background-color: #568623;
      display: flex;
-     gap: 10%;
+     gap: 8%;
      color: white;
      list-style-type: none;
-     font-size: 20px;
+     font-size: 18px;
      /* margin-left: 10px; */
  }
 
- /* .socialmedia{
-    font-size: 10px;
- } */
+  .socialmedia{
+    font-size: 15px;
+    margin-right:0px ;
+ } 
  .logos{
     gap: 5px;
     display: flex;
+    margin-right: 0px;
  }
 
  .logoprofile{
-    display: flex;
+    /* display: flex; */
  }
  
  /* .social{
