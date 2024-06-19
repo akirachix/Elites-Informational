@@ -38,21 +38,26 @@
     width: 110px;
     height: 105px;
     border-radius: 20px;
-    margin-top: 10px;
+    margin-top: 20px;
  }
 
  .ussdpic{
     width: 110px;
+    margin-top: 15px;
  }
 
  .laptop{
-    width: 180px;
+    width: 220px;
     margin-left: 40px;
+ }
+
+ .gallerytext{
+    margin-left: 170px;
  }
 
  .pics{
     display: flex;
-    gap: 15px;
+    gap: 10px;
     margin-right: 40px;
  }
 
@@ -74,22 +79,6 @@
     /* gap: 10px; */
  }
  
-
- /* .gmail{
-    margin-right: 10px;
- } */
- /* .igIcons{
-    width: 40%; 
-    /* margin-left: 9px; */
-    /* margin-top: 180px; */
-    /* margin-right: 0px; */
- /* }  */
-
-/* .twitterIcons{ */
-    /* width: 40%;  */
-    /* margin-left: 9px; */
-    /* margin-top: 180px;
- } */
  
  .footer{
      justify-content: center;
@@ -112,21 +101,15 @@
     margin-right: 0px;
  }
 
- .logoprofile{
-    /* display: flex; */
- }
  
- /* .social{
-     gap: 10px;
- }    */
  
- @media only screen and (max-width:667) {
+ /* @media only screen and (max-width:667) {
     .icons {
      width: 10%;
  }
  .footer {
      background-color: #568623;
-     display: flex;
+     flex-direction: column;
      justify-content: center;
      color: white;
      gap: 30px; 
@@ -136,10 +119,16 @@
  .logoprofile{
     flex-direction: column;
  }
- 
- 
- 
+
+ .pics{
+    flex-direction: column;
+    gap: 10px;
+    margin-right: 40px;
  }
+ 
+ 
+ 
+ } */
  
  @media only screen and (max-width: 667px) {
      .footer {
@@ -158,112 +147,374 @@
      .logoprofile{
         flex-direction: column;
      }
+
+     .pics{
+        flex-direction: column;
+        gap: 10px;
+        margin-right: 0px;
+     }
+
+     .gallerytext{
+        margin-left: 0px;
+     }
+
+     .umuhinzi{
+        width: 150px;
+        margin-left: 0px;
+        margin-bottom: 5px;
+     }
+
+     .contacts{
+        display: flex;
+        justify-content: center;
+        gap: 10px;
+        margin-left: 10px;
+     }
+
+     .first{
+        margin-right: 16px;
+     }
+
+     .icons{
+        width: 30px; 
+        margin-right: 0px;
+     }
+    
+     .twitterIcons{
+        width: 35px; 
+        /* margin-top: 1px; */
+     }
+     
+     .fbIcons{
+        width: 35px;
+     }
+
+     .contactstext{
+        margin-left: 0px;
+     }
+
+     .socialmedia{
+        font-size: 10px;
+        margin-right:0px ;
+        justify-content: center;
+     }  
      
  }
  
  @media only screen and (min-width:768px) and (max-width:1024px) {
-     .footer {
-         gap: 10px; 
-         flex-direction: column;
-         text-align: center; 
-         padding: 0px;
-         width: 72%;
-         height: 72%;
-     }
-     .icons {
-         width: 10%; 
-     }
- 
-     .footer ul{
-         list-style-type: none;
-     }
- 
-     /* .iconlist{
-         gap: 20%;
-     } */
+    .footer {
+        gap: 10px; 
+        flex-direction: column; 
+        text-align: center; 
+    }
+    .icons {
+        width: 20%; 
+    }
 
-     .logoprofile{
-        flex-direction: column;
-     }
+    .footer ul{
+        list-style-type: none;
+    }
+
+    .logoprofile{
+       flex-direction: column;
+    }
+
+    .pics{
+       flex-direction: column;
+       gap: 10px;
+       margin-right: 0px;
+    }
+
+    .gallerytext{
+       margin-left: 0px;
+    }
+
+    .umuhinzi{
+       width: 150px;
+       margin-left: 0px;
+       margin-bottom: 5px;
+    }
+
+    .contacts{
+       display: flex;
+       gap: 10px;
+       margin-left: 10px;
+    }
+
+    .first{
+       margin-right: 16px;
+    }
+
+    .icons{
+       width: 30px; 
+       margin-right: 0px;
+    }
+   
+    .twitterIcons{
+       width: 35px; 
+       /* margin-top: 1px; */
+    }
+    
+    .fbIcons{
+       width: 35px;
+    }
+
+    .contactstext{
+       margin-left: 0px;
+    }
+
+    .socialmedia{
+        font-size: 10px;
+        margin-right:0px ;
+        justify-content: center;
+     } 
      
      
  }
  
  @media only screen and (min-width:540px) and (max-width:720px) {
-     .footer {
-         gap: 10px; 
-         flex-direction: column;
-         text-align: center; 
-         padding: 0px;
-         width: 72%;
-         height: 72%;
-     }
-     .icons {
-         width: 10%; 
-     }
- 
-     .footer ul{
-         list-style-type: none;
-     }
-     
-     .logoprofile{
-        flex-direction: column;
-     }
+    .footer {
+        gap: 10px; 
+        flex-direction: column; 
+        text-align: center; 
+    }
+    .icons {
+        width: 20%; 
+    }
+
+    .footer ul{
+        list-style-type: none;
+    }
+
+    .logoprofile{
+       flex-direction: column;
+    }
+
+    .pics{
+       flex-direction: column;
+       gap: 10px;
+       margin-right: 0px;
+    }
+
+    .gallerytext{
+       margin-left: 0px;
+    }
+
+    .umuhinzi{
+       width: 150px;
+       margin-left: 0px;
+       margin-bottom: 5px;
+    }
+
+    .contacts{
+       display: flex;
+       gap: 10px;
+       margin-left: 10px;
+    }
+
+    .first{
+       margin-right: 16px;
+    }
+
+    .icons{
+       width: 30px; 
+       margin-right: 0px;
+    }
+   
+    .twitterIcons{
+       width: 35px; 
+       /* margin-top: 1px; */
+    }
+    
+    .fbIcons{
+       width: 35px;
+    }
+
+    .contactstext{
+       margin-left: 0px;
+    }
+
+    .socialmedia{
+        font-size: 10px;
+        margin-right:0px ;
+        justify-content: center;
+     } 
      
  }
  
  
  @media only screen and (min-width:1024px) and (max-width:600px) {
-     .footer{
-         display: flex;
-     }
- 
-     .icons {
-         width: 10%; 
-     }
+    .footer {
+        gap: 10px; 
+        flex-direction: column; 
+        text-align: center; 
+    }
+    .icons {
+        width: 20%; 
+    }
 
-     .logoprofile{
-        flex-direction: column;
-     }
-     
+    .footer ul{
+        list-style-type: none;
+    }
+
+    .logoprofile{
+       flex-direction: column;
+    }
+
+    .pics{
+       flex-direction: column;
+       gap: 10px;
+       margin-right: 0px;
+    }
+
+    .gallerytext{
+       margin-left: 0px;
+    }
+
+    .umuhinzi{
+       width: 150px;
+       margin-left: 0px;
+       margin-bottom: 5px;
+    }
+
+    .contacts{
+       display: flex;
+       gap: 10px;
+       margin-left: 10px;
+    }
+
+    .first{
+       margin-right: 16px;
+    }
+
+    .icons{
+       width: 30px; 
+       margin-right: 0px;
+    }
+   
+    .twitterIcons{
+       width: 35px; 
+       /* margin-top: 1px; */
+    }
+    
+    .fbIcons{
+       width: 35px;
+    }
+
+    .contactstext{
+       margin-left: 0px;
+    }
+
+    .socialmedia{
+        font-size: 10px;
+        margin-right:0px ;
+        justify-content: center;
+     } 
  
     
  }
-     /* .iconlist{
-         gap: 20%;
-     } */
+     
 
 @media only screen and (min-width:1280px) and (max-width:800px){
+    .footer {
+        gap: 10px; 
+        flex-direction: column; 
+        text-align: center; 
+    }
+    .icons {
+        width: 20%; 
+    }
+
+    .footer ul{
+        list-style-type: none;
+    }
+
+    .logoprofile{
+       flex-direction: column;
+    }
+
+    .pics{
+       flex-direction: column;
+       gap: 10px;
+       margin-right: 0px;
+    }
+
+    .gallerytext{
+       margin-left: 0px;
+    }
+
+    .umuhinzi{
+       width: 150px;
+       margin-left: 0px;
+       margin-bottom: 5px;
+    }
+
+    .contacts{
+       display: flex;
+       gap: 10px;
+       margin-left: 10px;
+    }
+
+    .first{
+       margin-right: 16px;
+    }
+
     .icons{
-        width: 5%; 
-        margin-left: 9px;
-        margin-bottom: 5px;
-     }
-     
-     .fbIcons{
-        width: 9%;
-     }
-     
-     .footer{
-         justify-content: center;
-         background-color: #568623;
-         flex-direction: column;
-         /* display: flex; */
-         gap: 20%;
-         color: white;
-         list-style-type: none;
-         font-size: 20px;
-         /* margin-left: 10px; */
-     }
+       width: 30px; 
+       margin-right: 0px;
+    }
+   
+    .twitterIcons{
+       width: 35px; 
+       /* margin-top: 1px; */
+    }
     
-     .logos{
-        gap: 5px;
+    .fbIcons{
+       width: 35px;
+    }
+
+    .contactstext{
+       margin-left: 0px;
+    }
+
+    .socialmedia{
+        font-size: 10px;
+        margin-right:0px ;
+        justify-content: center;
+     } 
+}
+
+@media only screen and (min-width:912px) and (max-width:1368px){
+    .contactstext{
+        margin-left: 350px;
+        /* justify-content: center; */
      }
 
-     .logoprofile{
-        flex-direction: column;
+     .contactheading{
+        margin-right: 330px;
      }
-     
+}
+
+@media only screen and (min-width:820px) and (max-width:1180px){
+    .contactstext{
+        margin-left: 300px;
+        /* justify-content: center; */
+     }
+
+     .contactheading{
+        margin-right: 330px;
+     }
+} 
+
+@media only screen and (min-width:768px) and (max-width:1024px){
+    .contactstext{
+        margin-left: 300px;
+        /* justify-content: center; */
+     }
+
+     .contactheading{
+        margin-right: 330px;
+     }
 }
     
  

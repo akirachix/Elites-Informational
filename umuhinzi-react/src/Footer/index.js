@@ -56,8 +56,8 @@ const Footer = ()=>{
             
          </div>
 
-         <div>
-            <h2>Contacts</h2>
+         <div className="contactstext">
+            <h2 className="contactheading">Contacts</h2>
 
             <div className="contacts">
             <img src={location} alt="" className="pins"/>
@@ -77,7 +77,7 @@ const Footer = ()=>{
          </div>
 
          <div>
-            <h2>Gallery</h2>
+            <h2 className="gallerytext">Gallery</h2>
        <div className="pics">
          <div>
          <img src={teafarm} alt="" className="tea_farm"/>
