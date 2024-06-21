@@ -31,18 +31,19 @@
   /* Team.css */
 
 .Team {
-    width: 100%;
+    width: 99.9%;
     margin: 40px auto;
-     background-color: #25b08b;
+     background-color: rgb(24, 172, 180);
     border: 1px solid #ddd;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    color: white;
+    box-shadow: 0 2px 4px #0000001a;
 
   }
   
   #heading {
     font-size: 40px;
     font-weight: bold;
-    margin-bottom: 20px;
+    margin-bottom: 40px;
     text-align: center;
   }
   
@@ -58,10 +59,13 @@
   }
   
   .team-member img {
-    width: 100%;
+    width: 90%;
     height: 150px;
     object-fit: cover;
     border-radius: 10px;
+  }
+  .text{
+    padding-left: 15%;
   }
   
   .team-member p {
@@ -75,7 +79,7 @@
   @media only screen and (max-width: 768px) {
     .team {
       flex-direction: column;
-      padding-left: 100px;
+      padding-left: 90px;
 
     }
     .team-member {

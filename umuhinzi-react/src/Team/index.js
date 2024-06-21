@@ -11,23 +11,23 @@ const Team = () => (
         <div className='team'>
             <div>
           <img src= {mee} id='img1'/>
-          <p><b>Nyawargak Gatchang</b></p>
+          <p className = "text"><b>Nyawargak Gatchang</b></p>
           </div>
           <div>
             <img src= {caren} id='img2'/>
-            <p><b>Caren Chepng'etich</b></p>
+            <p  className = "text"><b>Caren Chepng'etich</b></p>
             </div>
             <div>
             <img src= {tracy} id='img3'/>
-            <p><b>Tracy Malonza</b></p>
+            <p  className = "text"><b>Tracy Malonza</b></p>
             </div>
             <div>
             <img src= {lnet}id='img4'/>
-            <p><b>Linet Mkandoe</b></p>
+            <p  className = "text"><b>Linet Mkandoe</b></p>
             </div>
             <div>
             <img src= {myprofile}id='img5'/>
-            <p><b>Christine Akinyi</b></p>
+            <p className = "text"><b>Christine Akinyi</b></p>
             </div>
             </div>
             </div>);
