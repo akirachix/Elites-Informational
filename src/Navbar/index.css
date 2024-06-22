@@ -1,0 +1,130 @@
+.navbar li{
+    list-style-type:none;
+    margin-bottom: 100px;
+    margin-top: 30px;
+   }
+  
+   .navbar{
+    display: flex;
+    gap: 30%;
+    margin-right: 10%;
+    }
+  
+   .button_blue{
+       display: flex;
+       gap: 50px;
+       border-radius: 30px;
+       background-color: blue;
+       color: white;
+       padding: 12px 17px;
+   }
+  
+   .button_white{
+       display: flex;
+       gap: 50px;
+       border-radius: 30px;
+       background-color: green;
+       color: white;
+       padding: 10px 15px;
+   }
+  
+   .button{
+       display: flex;
+       gap: 100px;
+       margin-left: 30%;
+   }
+  
+   .landing_page{
+      display: flex;
+      gap: 10%;
+      margin-left: 10%;
+     
+     } 
+  
+   .text{
+       margin-top: 3%;
+       font-size: 30px;
+   }
+  
+   .farm_pic{
+      border-radius: 100px;
+      height: 120%;
+   }
+  
+   .logo{
+       margin-bottom: 100px;
+       height: 70px;
+       width: 60px;
+       margin-left: 300px;
+   }
+   .logo_navbar{
+    display: flex;
+    gap: 20%;
+   }
+    
+   @media screen and (min-width:375px) and (max-width:667px) {
+    .navbar{
+        display: flex;
+        gap: 0%;
+        margin-left: -70px;
+        }
+    .farm_pic{
+            border-radius: 100px;
+            height: 240px;
+         }
+    .landing_page{
+          
+           flex-direction: column;
+            margin-left: 0%;
+           
+           } 
+    .text{
+            margin-bottom: 10px;
+            font-size: 10px;
+        }
+    .logo{
+            margin-bottom: 100px;
+    
+            margin-left: 0px;
+        }
+    .button{
+            display: flex;
+            gap: 100px;
+            margin-left: 40px;
+            margin-bottom: 10px;
+        }
+      
+   }
+   @media screen and (min-width:414px) and (max-width:896px) {
+    .navbar{
+        display: flex;
+        gap: 0%;
+        margin-left: -70px;
+        }
+    .farm_pic{
+            border-radius: 100px;
+            height: 240px;
+         }
+    .landing_page{
+          
+           flex-direction: column;
+            margin-left: 0%;
+           
+           } 
+    .text{
+            margin-bottom: 10px;
+            font-size: 10px;
+        }
+    .logo{
+            margin-bottom: 100px;
+    
+            margin-left: 0px;
+        }
+    .button{
+            display: flex;
+            gap: 100px;
+            margin-left: 40px;
+            margin-bottom: 10px;
+        }
+      
+   }
