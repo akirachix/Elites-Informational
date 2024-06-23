@@ -1,15 +1,12 @@
 import './index.css';
-import facebook from '../Images/facebookicon.svg';
-import linkedin from '../Images/linkedinicon.svg';
-import instagram from '../Images/instagramicon.svg';
-import twitter from '../Images/twittericon.svg';
 import umuhinzilogo from '../Images/umuhinziicon.png'
 import location from '../Images/location.svg';
-import telephone from '../Images/telephone.svg';
 import email from '../Images/email.svg';
 import teafarm from '../Images/tea_farm.jpg';
 import ussd from '../Images/ussd-illustrations.png';
 import laptops from '../Images/laptops.png';
+import { FaFacebook, FaInstagram, FaLinkedin, FaPhoneAlt, FaTwitter } from 'react-icons/fa';
+
 
 
 
@@ -26,19 +23,19 @@ const Footer = ()=>{
          
          <div className="socialmedia">
             <div>
-            <img src={instagram} alt="" className="icons"/>
+               <FaInstagram className='icons' />
             </div>
             
             <div>
-            <img src={facebook} alt="" className="fbIcons"/>
-            </div>
+               <FaFacebook className='icons'/>
+                       </div>
             
             <div> 
-            <img src={linkedin} alt="" className="icons"/>
+            <FaLinkedin className='icons' />
             </div>
             
             <div>
-            <img src={twitter} alt="" className="twitterIcons"/>
+            <FaTwitter className='icons'/>
             </div>
             
          </div>
@@ -65,12 +62,13 @@ const Footer = ()=>{
             </div>
             
             <div className="contacts">
-            <img src={telephone} alt="" className="phonepin"/>
+               <FaPhoneAlt className='phonepin'/>
+            {/* <img src={telephone} alt="" className="phonepin"/> */}
             <p>+ 25412345678</p>
             </div>
            
            <div className="contacts">
-           <img src={email} alt= "" className="pins"/>
+           <img src={email} alt= "" className="email"/>
            <p className="gmail">elites@gmail.com</p>
            </div>
             
@@ -102,62 +100,5 @@ const Footer = ()=>{
       )
    };
    
-   export default Footer;
-//        <div className="footer">
-//          {/* <div> */}
-
-//             <div className="logoprofile">
-//                 <div>
-//                 <img src= {umuhinzilogo} alt="umuhinzilogo"/>
-//                 </div>
-                
-//                 <div>
-//                 {/* <h2>Umuhinzi</h2> */}
-//             <p>This platform is meant to empower you to make decisions based on knowledge.<br></br>Knowldge is power, do not be left behind.</p>
-//                 </div>
-
-//                 <div className="logos">         
-//             <h2>Social Media</h2>
-//             <div>
-          
-//             <img src={instagram} alt="instagram icon" className='igIcons'/>
-//             </div>
-
-//             <div>
-//             <img src={facebook} alt='facebook icon' className='fbIcons'/>
-//             </div>
-           
-//            <div>
-//            <img src={linkedin} alt='linkedin icon' className='icons'/>
-//            </div>
-
-//            <div>
-//            <img src={twitter} alt='twitter icon' className='twitterIcons'/>
-//            </div>
-          
-//  </div>
-            
-//             </div>
-            
-//          <div>
-//             <h2>Explore</h2>
-//             <li>Home</li>
-//             <li>About Us</li>
-//             <li>Our team</li>
-//             <li>Mission and Vision</li>
-//          </div>
-      
-//          <div>
-//             <h2>Contacts</h2>
-//             <li>+ 25412345678</li>
-//             <li>c@elites.com</li>
-//          </div>   
-
-//          <div>
-//             <h2>Gallery</h2>
-//             <img src={teafarm} alt=""/>
-//             <img src={ussd} alt=""/>
-//             <img src={laptops} alt=""/>
-//             </div>         
-//        </div>
+   export default Footer;   
   

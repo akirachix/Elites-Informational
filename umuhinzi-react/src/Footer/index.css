@@ -1,20 +1,16 @@
 .icons{
-    width: 30px; 
-    margin-right: 0px;
+  font-size: 35px;
+  margin: 6px;
  }
 
- .twitterIcons{
-    width: 35px; 
-    /* margin-top: 1px; */
- }
- 
- .fbIcons{
-    width: 35px;
- }
+
 
  .pins{
     width: 30px;
-    /* margin-top: 10px; */
+ }
+
+ .email{
+   width: 30px;
  }
 
  .umuhinzi{
@@ -24,14 +20,14 @@
  }
 
  .content{
-    margin-top: 10px;
+    margin-top: 20px;
   }  
 
  .socialmedia{
-    gap: 20px;
     display: flex;
-    /* margin-bottom: 10px; */
-    margin-left: 40px;
+    gap: 10%;
+    margin-left: 25px;
+    margin-bottom: 20px;
  }
 
  .tea_farm{
@@ -53,6 +49,7 @@
 
  .gallerytext{
     margin-left: 170px;
+    margin-top: 70px;
  }
 
  .pics{
@@ -64,36 +61,40 @@
  .contacts{
     display: flex;
     gap: 10px;
+    margin-top: -4px;
+ }
+
+ .contactstext{
+   margin-top: 50px;
  }
 
  .exploretext{
-    margin-top: 20px;
+    margin-top: 70px;
  }
 
  .phonepin{
-    width: 37px;
+    font-size: 23px;
+    margin-top: 17px;
  }
 
  .explorecontent{
-    margin-top: 45px;
-    /* gap: 10px; */
+    margin-top: 4px;
  }
  
  
  .footer{
      justify-content: center;
-     background-color: #568623;
+     background-color: #163E5F;
      display: flex;
      gap: 8%;
      color: white;
      list-style-type: none;
      font-size: 18px;
-     /* margin-left: 10px; */
  }
 
   .socialmedia{
     font-size: 15px;
-    margin-right:0px ;
+    margin-bottom: 10px ; 
  } 
  .logos{
     gap: 5px;
@@ -103,32 +104,22 @@
 
  
  
- /* @media only screen and (max-width:667) {
-    .icons {
-     width: 10%;
- }
- .footer {
-     background-color: #568623;
-     flex-direction: column;
-     justify-content: center;
-     color: white;
-     gap: 30px; 
-     padding: 20px; 
- }
+ 
+@media only screen and (min-width:280px) and (max-width:653px){
+   .pins{
+      width: 20px;
+      margin-bottom: 24px;
+   }
 
- .logoprofile{
-    flex-direction: column;
- }
+   .email{
+      width: 20px;
+    }
 
- .pics{
-    flex-direction: column;
-    gap: 10px;
-    margin-right: 40px;
+     .phonepin{
+    font-size: 23px;
+    margin-top: 17px;
  }
- 
- 
- 
- } */
+}
  
  @media only screen and (max-width: 667px) {
      .footer {
@@ -484,15 +475,71 @@
      } 
 }
 
-@media only screen and (min-width:912px) and (max-width:1368px){
-    .contactstext{
-        margin-left: 350px;
-        /* justify-content: center; */
-     }
+@media only screen and (min-width:912px) and (max-width:1368px){  
 
-     .contactheading{
-        margin-right: 330px;
-     }
+     .footer {
+      gap: 10px; 
+      flex-direction: column; 
+      text-align: center; 
+  }
+  .icons {
+      width: 20%; 
+  }
+
+  .footer ul{
+      list-style-type: none;
+  }
+
+  .logoprofile{
+     flex-direction: column;
+  }
+
+  .pics{
+     display: flex;
+     gap: 10px;
+     margin-right: 0px;
+  }
+
+  .gallerytext{
+     margin-left: 0px;
+  }
+
+  .umuhinzi{
+     width: 150px;
+     margin-left: 0px;
+     margin-bottom: 5px;
+  }
+
+  .contacts{
+     margin-right: 300px;
+     justify-content: center;
+  }
+
+  .first{
+     margin-right: 16px;
+  }
+
+  .icons{
+     width: 30px; 
+     margin-right: 0px;
+  }
+ 
+  .twitterIcons{
+     width: 35px; 
+     /* margin-top: 1px; */
+  }
+  
+  .fbIcons{
+     width: 35px;
+  }
+
+
+
+  .socialmedia{
+      font-size: 10px;
+      margin-right:0px ;
+      justify-content: center;
+   } 
 }
 
 @media only screen and (min-width:820px) and (max-width:1180px){
@@ -506,10 +553,10 @@
      }
 } 
 
-@media only screen and (min-width:768px) and (max-width:1024px){
+@media only screen and (min-width:768px) and (max-width:1023px){
     .contactstext{
         margin-left: 300px;
-        /* justify-content: center; */
+        justify-content: center; 
      }
 
      .contactheading{
