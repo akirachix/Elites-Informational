@@ -59,7 +59,7 @@
  }
 
  .contacts{
-    display: flex;
+   display: flex; 
     gap: 10px;
     margin-top: -4px;
  }
@@ -103,12 +103,16 @@
  }
 
  
- 
+
  
 @media only screen and (min-width:280px) and (max-width:653px){
    .pins{
       width: 20px;
       margin-bottom: 24px;
+   }
+
+   .footer{
+      width: 429px;
    }
 
    .email{
@@ -119,9 +123,21 @@
     font-size: 23px;
     margin-top: 17px;
  }
-}
- 
- @media only screen and (max-width: 667px) {
+
+ .gallerytext{
+   margin-right: 0px;
+ }
+
+ .exploretext{
+   margin-right: 16px;
+ }
+
+ .contactstext{
+   margin-right: 5px;
+ }
+} 
+
+@media only screen and (max-width: 667px) {
      .footer {
          gap: 10px; 
          flex-direction: column; 
@@ -141,19 +157,12 @@
 
      .pics{
         flex-direction: column;
-        gap: 10px;
-        margin-right: 0px;
      }
 
-     .gallerytext{
-        margin-left: 0px;
-     }
-
-     .umuhinzi{
-        width: 150px;
-        margin-left: 0px;
-        margin-bottom: 5px;
-     }
+    .umuhinzi{
+        width: 80px;
+        margin-right: 80px;
+     }  
 
      .contacts{
         display: flex;
@@ -161,42 +170,38 @@
         gap: 10px;
         margin-left: 10px;
      }
-
-     .first{
-        margin-right: 16px;
+     .pins{
+      margin-bottom: 5px;
      }
+
 
      .icons{
         width: 30px; 
         margin-right: 0px;
-     }
+     }   
     
-     .twitterIcons{
-        width: 35px; 
-        /* margin-top: 1px; */
-     }
-     
-     .fbIcons{
-        width: 35px;
-     }
-
-     .contactstext{
-        margin-left: 0px;
-     }
 
      .socialmedia{
         font-size: 10px;
         margin-right:0px ;
         justify-content: center;
      }  
+
+     .gallerytext{
+      text-indent: -190px;
+     }
      
- }
- 
+ } 
+
  @media only screen and (min-width:768px) and (max-width:1024px) {
     .footer {
         gap: 10px; 
         flex-direction: column; 
         text-align: center; 
+          }
+
+    .gallerytext{
+      text-indent: -200px;
     }
     .icons {
         width: 20%; 
@@ -216,20 +221,19 @@
        margin-right: 0px;
     }
 
-    .gallerytext{
-       margin-left: 0px;
-    }
+   
 
     .umuhinzi{
        width: 150px;
-       margin-left: 0px;
+       margin-right:  0px;
        margin-bottom: 5px;
     }
 
     .contacts{
        display: flex;
        gap: 10px;
-       margin-left: 10px;
+       margin-left: 40px;
+       justify-content: center;
     }
 
     .first{
@@ -243,8 +247,8 @@
    
     .twitterIcons{
        width: 35px; 
-       /* margin-top: 1px; */
-    }
+       margin-top: 1px; 
+     }
     
     .fbIcons{
        width: 35px;
@@ -261,13 +265,14 @@
      } 
      
      
- }
+ } 
  
  @media only screen and (min-width:540px) and (max-width:720px) {
     .footer {
         gap: 10px; 
         flex-direction: column; 
         text-align: center; 
+        width: 535px;
     }
     .icons {
         width: 20%; 
@@ -288,7 +293,7 @@
     }
 
     .gallerytext{
-       margin-left: 0px;
+       margin-right: 0px;
     }
 
     .umuhinzi{
@@ -314,7 +319,7 @@
    
     .twitterIcons{
        width: 35px; 
-       /* margin-top: 1px; */
+        margin-top: 1px; 
     }
     
     .fbIcons{
@@ -329,190 +334,35 @@
         font-size: 10px;
         margin-right:0px ;
         justify-content: center;
-     } 
+     }
      
- }
+ }  
  
- 
- @media only screen and (min-width:1024px) and (max-width:600px) {
-    .footer {
-        gap: 10px; 
-        flex-direction: column; 
-        text-align: center; 
-    }
-    .icons {
-        width: 20%; 
-    }
-
-    .footer ul{
-        list-style-type: none;
-    }
-
-    .logoprofile{
-       flex-direction: column;
-    }
-
-    .pics{
-       flex-direction: column;
-       gap: 10px;
-       margin-right: 0px;
-    }
-
-    .gallerytext{
-       margin-left: 0px;
-    }
-
-    .umuhinzi{
-       width: 150px;
-       margin-left: 0px;
-       margin-bottom: 5px;
-    }
-
-    .contacts{
-       display: flex;
-       gap: 10px;
-       margin-left: 10px;
-    }
-
-    .first{
-       margin-right: 16px;
-    }
-
-    .icons{
-       width: 30px; 
-       margin-right: 0px;
-    }
-   
-    .twitterIcons{
-       width: 35px; 
-       /* margin-top: 1px; */
-    }
-    
-    .fbIcons{
-       width: 35px;
-    }
-
-    .contactstext{
-       margin-left: 0px;
-    }
-
-    .socialmedia{
-        font-size: 10px;
-        margin-right:0px ;
-        justify-content: center;
-     } 
- 
-    
- }
-     
-
-@media only screen and (min-width:1280px) and (max-width:800px){
-    .footer {
-        gap: 10px; 
-        flex-direction: column; 
-        text-align: center; 
-    }
-    .icons {
-        width: 20%; 
-    }
-
-    .footer ul{
-        list-style-type: none;
-    }
-
-    .logoprofile{
-       flex-direction: column;
-    }
-
-    .pics{
-       flex-direction: column;
-       gap: 10px;
-       margin-right: 0px;
-    }
-
-    .gallerytext{
-       margin-left: 0px;
-    }
-
-    .umuhinzi{
-       width: 150px;
-       margin-left: 0px;
-       margin-bottom: 5px;
-    }
-
-    .contacts{
-       display: flex;
-       gap: 10px;
-       margin-left: 10px;
-    }
-
-    .first{
-       margin-right: 16px;
-    }
-
-    .icons{
-       width: 30px; 
-       margin-right: 0px;
-    }
-   
-    .twitterIcons{
-       width: 35px; 
-       /* margin-top: 1px; */
-    }
-    
-    .fbIcons{
-       width: 35px;
-    }
-
-    .contactstext{
-       margin-left: 0px;
-    }
-
-    .socialmedia{
-        font-size: 10px;
-        margin-right:0px ;
-        justify-content: center;
-     } 
-}
-
-@media only screen and (min-width:912px) and (max-width:1368px){  
+@media only screen and (min-width:912px) and (max-width:1150px){  
 
      .footer {
       gap: 10px; 
-      flex-direction: column; 
-      text-align: center; 
+      display: flex;
+      padding: 20px;
   }
-  .icons {
-      width: 20%; 
-  }
-
-  .footer ul{
-      list-style-type: none;
-  }
-
-  .logoprofile{
-     flex-direction: column;
-  }
+ 
 
   .pics{
-     display: flex;
-     gap: 10px;
-     margin-right: 0px;
-  }
+   margin-left: 10px; 
+}
 
   .gallerytext{
-     margin-left: 0px;
-  }
+     margin-right: -20px;
+  } 
 
   .umuhinzi{
      width: 150px;
      margin-left: 0px;
-     margin-bottom: 5px;
   }
 
   .contacts{
      margin-right: 300px;
-     justify-content: center;
+     justify-content: center; 
   }
 
   .first{
@@ -526,12 +376,12 @@
  
   .twitterIcons{
      width: 35px; 
-     /* margin-top: 1px; */
+    margin-top: 1px; 
   }
   
   .fbIcons{
      width: 35px;
-  }
+  } 
 
 
 
@@ -539,30 +389,247 @@
       font-size: 10px;
       margin-right:0px ;
       justify-content: center;
-   } 
-}
+   }
+
+   .tea_farm{
+      width: 90px;
+      height: 70px;
+      border-radius: 20px;
+      margin-top: 20px;
+   }
+  
+   .ussdpic{
+      width: 70px;
+      margin-top: 15px;
+   }
+  
+   .laptop{
+      width: 150px;
+      margin-left: 0px;
+   }
+
+   .explorecontent{
+      margin-left: 0px;
+      
+   }
+}  
 
 @media only screen and (min-width:820px) and (max-width:1180px){
     .contactstext{
         margin-left: 300px;
-        /* justify-content: center; */
-     }
+         /* justify-content: center;  */
+      }
+
+      .contacts{
+         justify-content: center;
+         margin-left: -280px;
+      }
 
      .contactheading{
-        margin-right: 330px;
+        margin-right: 300px;
+     }
+
+     .pins{
+      margin-bottom: 20px;
+     }
+
+     .gallerytext{
+      margin-right: 10px;
+     }
+
+     .umuhinzi{
+      margin-right: 70px;
      }
 } 
 
-@media only screen and (min-width:768px) and (max-width:1023px){
-    .contactstext{
-        margin-left: 300px;
-        justify-content: center; 
-     }
+@media only screen and (min-width:1151px) and (max-width:1280px){
+   .footer {
+      gap: 10px; 
+      display: flex;
+      padding: 20px;
+  }
 
-     .contactheading{
-        margin-right: 330px;
+  .contactstext{
+   margin-bottom: 10px;
+  }
+ 
+
+  .pics{
+   margin-left: 10px; 
+}
+
+  .umuhinzi{
+     width: 150px;
+     margin-left: 50px;
+  }
+
+  .contacts{
+     margin-right: 30px;
+     /* justify-content: center;  */
+  }
+
+  .first{
+     margin-right: 16px;
+  }
+
+  .icons{
+     width: 30px; 
+     margin-right: 0px;
+  }
+ 
+  .twitterIcons{
+     width: 35px; 
+    margin-top: 1px; 
+  }
+  
+  .fbIcons{
+     width: 35px;
+  } 
+
+  .socialmedia{
+      font-size: 10px;
+      margin-right:0px ;
+      justify-content: center;
+   }
+
+   .tea_farm{
+      width: 90px;
+      height: 70px;
+      border-radius: 20px;
+      margin-top: 20px;
+   }
+  
+   .ussdpic{
+      width: 70px;
+      margin-top: 15px;
+   }
+  
+   .laptop{
+      width: 150px;
+      margin-left: 0px;
+   }
+
+   .explorecontent{
+      margin-left: 0px;
+      
+   }
+
+   .gallerytext{
+      text-indent: -170px;
+   }
+
+   
+}
+
+@media screen and (max-width:800px){
+   
+    
+    
+    
+     
+    
+     .email{
+       width: 30px;
+     }
+    
+     .umuhinzi{
+        width: 150px;
+        margin-left: 100px;
+        margin-bottom: 5px;
+     }
+    
+     .content{
+        margin-top: 20px;
+      }  
+    
+     .socialmedia{
+        display: flex;
+        gap: 10%;
+        margin-left: 25px;
+        margin-bottom: 20px;
+     }
+    
+     .tea_farm{
+        width: 110px;
+        height: 105px;
+        border-radius: 20px;
+        margin-top: 20px;
+     }
+    
+     .ussdpic{
+        width: 110px;
+        margin-top: 15px;
+     }
+    
+     .laptop{
+        width: 220px;
+        margin-left: 40px;
+     }
+    
+     .gallerytext{
+        margin-left: 170px;
+        margin-top: 70px;
+     }
+    
+     .pics{
+        display: flex;
+        gap: 10px;
+        margin-right: 40px;
+     }
+    
+     .contacts{
+        display: flex;
+        gap: 10px;
+        margin-top: -4px;
+     }
+    
+     .contactstext{
+       margin-top: 50px;
+     }
+    
+     .exploretext{
+        margin-top: 70px;
+     }
+    
+     .phonepin{
+        font-size: 23px;
+        margin-top: 17px;
+     }
+    
+     .explorecontent{
+        margin-top: 4px;
+     }
+     
+     
+     .footer{
+         justify-content: center;
+         background-color: #163E5F;
+         display: flex;
+         gap: 8%;
+         color: white;
+         list-style-type: none;
+         font-size: 18px;
+     }
+    
+      .socialmedia{
+        font-size: 15px;
+        margin-bottom: 10px ; 
+     } 
+     .logos{
+        gap: 5px;
+        display: flex;
+        margin-right: 0px;
      }
 }
+
+@media only screen and (min-width:1024px) and (max-width:1366px){
+   .gallerytext{
+      margin-left: 180px;
+   }
+}
+
+
+
     
  
  
