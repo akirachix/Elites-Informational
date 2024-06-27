@@ -7,30 +7,29 @@ function Products(){
     return(
        
         <div className='products'>
-            <h1>Products</h1>
-            <div className = 'app'>
-            <h2>Umuhinzi Web App</h2>
+            <h1 className ='H1'>Products</h1>
+            <div>
+            <h3 className ='app'>Umuhinzi Web App</h3>
             </div>
             <div className='webapp'>
-           <div>
-           <img src={app} alt='app img'/>
-          </div>
+           <img className = 'webimg'src={app} alt='app img'/>
+         
           <div className='appinfo'>
-           <p>Our products will show current market prices</p> 
-          <p>for different farming inputs,past purchases</p>
-          <p>and transaction history and update market pricing</p>
+           <p>Our products will show current market prices 
+          for<br/> different farming inputs,past purchases
+          and transaction<br/> history and update market pricing</p>
      </div>
           </div>
           <div className='ussd'>
           
           <div className='ussdinfo'>
           <div className='topic'>
-            <h3>USSD</h3>
+            <h4>USSD</h4>
             </div>
-              <p>Umuhinzi is a USSD platform that helps</p> 
-              <p>smallholder farmers have</p>
-              <p>access to input and information to boost their productivity</p>
-              <p>and to be market ready</p>
+              <p>Umuhinzi is a USSD platform that helps
+              smallholder<br/> farmers have
+              access to input and information to <br/> boost their productivity
+            and to be market ready</p>
             </div>
             
             <img src={ussd} alt='ussd' className='img'/>
