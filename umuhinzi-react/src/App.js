@@ -4,7 +4,7 @@ import Team from "./Team";
 function App() {
   return (
     <div>
-  {/* <About/> */}
+  <About/>
   <Team/>
   </div>
   );
