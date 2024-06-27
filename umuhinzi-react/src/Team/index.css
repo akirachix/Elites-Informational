@@ -75,36 +75,106 @@
     text-align: center;
   }
   
-
-  @media only screen and (max-width: 768px) {
-    .team {
-      flex-direction: column;
-      padding-left: 90px;
-
-    }
-    .team-member {
-      width: 100%;
-      margin-bottom: 20px;
-    }
+/* Smartphones (portrait and landscape) */
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+  .team {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 60px 0;
   }
+
+  .team  {
+    display: flex;
+    flex-direction: column;
+ 
+  }
+
   
+    
+} 
+/* Smartphones (portrait and landscape) */
+@media only screen and (min-width: 480px) and (max-width: 540px) {
+  .team {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 60px 0;
+  }
 
-  @media only screen and (min-width: 769px) and (max-width: 1024px) {
-    .team {
-      flex-wrap: wrap;
-      
-    }
-    .team-member {
-      width: calc(33.33% - 20px);
-    }
+  .team  {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 1.5rem;
   }
+
   
-  /* For large screens (desktop) */
-  @media only screen and (min-width: 1025px) {
-    .team {
-      flex-wrap: wrap;
-    }
-    .team-member {
-      width: calc(20% - 20px);
-    }
+}
+
+/* Smartphones (portrait and landscape) */
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+  .team {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 60px 0;
   }
+
+  .team {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 1rem;
+  }
+
+  
+}
+
+/* Small devices (portrait tablets and large phones, 768px and up) */
+@media only screen and (min-width: 768px) and (max-width: 912px){
+  .team {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 60px 0;
+  }
+
+  .team  {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 1rem;
+  }
+
+ 
+}
+
+/* Medium devices (landscape tablets, 992px and up) */
+/* @media only screen and (min-width: 992px) {
+  .team {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 60px 0;
+  }
+
+  .team  {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 1.5rem;
+  }
+
+  
+} */
