@@ -23,25 +23,27 @@ font-size: 30px;
     font-size: 30px;
 }
 
-.H1{
+.heading{
     margin-left: 35%;
     font-size: 45px;
     padding-left: 20px;
     text-indent: 20px;
 
 } 
-.img{
+.ussdimg{
     width: 350px;
     height: 300px;
     margin-top: 90px;
     margin-right: 130px;
 }
+.webtitle{
+    font-size: 30px;
+}
 
 
-
-@media only screen and (max-width: 667px) {
+@media only screen and (min-width:280px) and (max-width:359px){
     .products{
-        margin-left: 15px;
+        margin-left: 10px;
     } 
     .webapp{
         display: grid;
@@ -49,7 +51,7 @@ font-size: 30px;
     }
     .appinfo{
     margin-top: -15px;
-    font-size: 15px;
+    font-size: 13px;
     }
     .ussd{
         display: grid;
@@ -59,33 +61,42 @@ font-size: 30px;
     
     .ussdinfo{
         margin-top: 20px;  
-        font-size: 15px;
+        font-size: 13px;
         }
     .app{
-        font-size: 25px;
+        font-size: 15px;
+        /* font-weight: 6px; */
+        
+
     }
     
-    .H1{
-        margin-left: 20px;
-        font-size: 45px;
+    .heading{
+        margin-left: 67px;
+        font-size: 30px;
         padding-left:0px;
         
 
     
     } 
-    .img{
-        width: 300px;
-        height: 300px;
+    .ussdimg{
+        width: 250px;
+        height: 250px;
         margin-top: 10px;
         margin-right: 10px;
+    }
+
+    .webtitle{
+         font-size: 15px; 
+        
     }
 }
+
     
     
-/* }
-@media only screen and (min-width:412px) and (max-width:915px){
+
+@media only screen and (min-width:360px) and (max-width:380px){
     .products{
-        margin-left: 15px;
+        margin-left: 13px;
     } 
     .webapp{
         display: grid;
@@ -93,7 +104,7 @@ font-size: 30px;
     }
     .appinfo{
     margin-top: -15px;
-    font-size: 15px;
+    font-size: 14px;
     }
     .ussd{
         display: grid;
@@ -103,65 +114,30 @@ font-size: 30px;
     
     .ussdinfo{
         margin-top: 20px;  
-        font-size: 15px;
+        font-size: 14px;
         }
     .app{
-        font-size: 25px;
-    }
-    .H1{
-        /* margin-left: 35px; */
-        /* padding-left: 5%;
-    } */
-   
-  
- 
-    /* .img{
-        width: 300px;
-        height: 300px;
-        margin-top: 10px;
-        margin-right: 10px;
-    }
-} */
-@media only screen and (min-width:390px) and (max-width:844px){
-    .products{
-        margin-left: 20px;
-    } 
-    .webapp{
-        display: grid;
-        
-    }
-    .appinfo{
-    margin-top: -15px;
-    font-size: 15px;
-    }
-    .ussd{
-        display: grid;
-        margin-top: 40px;
-        gap: 15px;
-    } 
-    
-    .ussdinfo{
-        margin-top: 20px;  
-        font-size: 15px;
-        }
-    .app{
-        font-size: 25px;
+        font-size: 20px;
     }
     
-    .H1{
-        margin-left: 23%;
-        font-size: 45px;
+    .heading{
+        margin-left: 68px;
+        font-size: 34px;
         padding-left: 1px;
     
     } 
-    .img{
+    .ussdimg{
         width: 300px;
         height: 300px;
         margin-top: 10px;
         margin-right: 10px;
     } 
+    .webtitle{
+        font-size: 20px; 
+       
+   }
 }
- @media only screen and (min-width:412px) and (max-width:915px){
+ @media only screen and (min-width:381px) and (max-width:480px){
     .products{
         margin-left: 20px;
     } 
@@ -184,27 +160,31 @@ font-size: 30px;
         font-size: 15px;
         }
     .app{
-        font-size: 25px;
+        font-size: 20px;
         justify-content: center;
     }
     
-    .H1{
-        margin-left: 45px;
-        font-size: 45px;
+    .heading{
+        margin-left: 85px;
+        font-size: 35px;
         padding-left: 2px;
         
     
     } 
-    .img{
+    .ussdimg{
         width: 300px;
         height: 300px;
         margin-top: 10px;
         margin-right: 10px;
-    }   
+    }  
+    .webtitle{
+        font-size: 20px; 
+       
+   } 
 }  
-@media only screen and (min-width:932px) and (max-width:430px){
+@media only screen and (min-width:481px) and (max-width:580px){
     .products{
-        margin-left: 15px;
+        margin-left: 9%;
     } 
     .webapp{
         display: grid;
@@ -212,7 +192,7 @@ font-size: 30px;
     }
     .appinfo{
     margin-top: -15px;
-    font-size: 15px;
+    font-size: 18px;
     }
     .ussd{
         display: grid;
@@ -222,26 +202,26 @@ font-size: 30px;
     
     .ussdinfo{
         margin-top: 20px;  
-        font-size: 15px;
+        font-size: 18px;
         }
     .app{
         font-size: 25px;
     }
-    .H1{
-        margin-left: 32px;
+    .heading{
+        margin-left: 15%;
 
     }
  
-    .img{
+    .ussdimg{
         width: 300px;
         height: 300px;
         margin-top: 10px;
         margin-right: 10px;
     }
 }
-@media only screen and (min-width:344px) and (max-width:882px) {
+@media only screen and (min-width:681px) and (max-width:780px) {
     .products{
-        margin-left: 15px;
+        margin-left: 20%;
     } 
     .webapp{
         display: grid;
@@ -249,7 +229,7 @@ font-size: 30px;
     }
     .appinfo{
     margin-top: -15px;
-    font-size: 15px;
+    font-size: 20px;
     }
     .ussd{
         display: grid;
@@ -259,17 +239,17 @@ font-size: 30px;
     
     .ussdinfo{
         margin-top: 20px;  
-        font-size: 15px;
+        font-size: 20px;
         }
     .app{
         font-size: 25px;
     }
-    .H1{
-        margin-left: 50px;
+    .heading{
+        margin-left: 77px;
 
     }
  
-    .img{
+    .ussdimg{
         width: 300px;
         height: 300px;
         margin-top: 10px;
@@ -277,9 +257,9 @@ font-size: 30px;
     }  
 }
 
- @media only screen and (min-width:360px) and (max-width:740px){
+ @media only screen and (min-width:820px) and (max-width:920px){
     .products{
-        margin-left: 25px;
+        margin-left: 10%;
     } 
     .webapp{
         display: grid;
@@ -287,7 +267,7 @@ font-size: 30px;
     }
     .appinfo{
     margin-top: -15px;
-    font-size: 15px;
+    font-size: 26px;
     }
     .ussd{
         display: grid;
@@ -297,97 +277,58 @@ font-size: 30px;
     
     .ussdinfo{
         margin-top: 20px;  
-        font-size: 15px;
+        font-size: 26px;
         }
     .app{
         font-size: 25px;
     }
     
-    .H1{
-        margin-left: 15%;
+    .heading{
+        margin-left: 25%;
         font-size: 45px;
     
     } 
-    .img{
+    .ussdimg{
         width: 300px;
         height: 300px;
         margin-top: 10px;
         margin-right: 10px;
     }    
 } 
- /* @media only screen and (min-width:768px) and (max-width:1024px) {
-    .products{
-    display: grid;
-    } 
-    .webapp{
-        display: grid;
-        margin-right: 80px;
-    }
-   
-    .appinfo{
-    margin-top: -20px;
-    margin-bottom: -90px;
-    font-size: 20px;
-    
-    
-    } 
-  
-    .ussd{
-        display: grid;
-        margin-left: 30px;
-
-    }
-    .ussdinfo{
-        margin-top: 50px;  
-        font-size: 20px;
-        }
-    .app{
-        font-size: 25px;
-    }
-    
-    .H1{
-        margin-left: -38px;
-        padding-left: 40px;
-        font-size: 45px;
-        text-indent: 90px;
-    
-    } 
-    .img{
-        width: 300px;
-        height: 200px;
-        margin-top: 80px;
-        margin-right: 70px;
-    }
-    .webimg{
-    margin-right: 0px;
-    } */
-    @media only screen and (min-width:768px) and (max-width:1024px) {
+ 
+    @media only screen and (min-width:921px) and (max-width:1024px) {
         .products{
-            margin-left: 10px;
-            padding-left: 3px;
+            margin-left: -10px;
+           
         } 
         .webapp{
-            display: grid;
+            display: flex;
+            margin-left: 88px;
+            
         }
        
         .appinfo{
-        margin-top: -40px;
-        margin-bottom: -60px;
-        font-size: 20px;
+        
+        margin-top: 30px;
+        font-size: 25px;
+        
         } 
       
         .ussd{
             display: flex;
+            margin-left: 30px;
+            
     
         }
         .ussdinfo{
-            margin-top: 50px;  
-            font-size: 15px;
-            margin-left: 20px;
+            margin-top: 0px;  
+            font-size: 25px;
+            margin-left: 30px;
             }
         .app{
-            font-size: 25px;
-            margin-left: 29px;
+            font-size: 35px;
+            margin-left: 0px;
+            
         }
         
         .H1{
@@ -397,275 +338,85 @@ font-size: 30px;
     
         
         } 
-        .img{
+        .ussdimg{
             width: 350px;
             height: 300px;
-            margin-top: 70px;
+            margin-left: 50px;
+            margin-top: 60px;
+        
         }
         .webimg{
             margin-bottom: 0px;
             margin-left: 30px;
+            padding-bottom: 40px;
+        }
+        .webtitle{
+            font-size: 35px; 
+            margin-left: 60px; 
         }
     
     
 
     }
-@media only screen and (min-width:853px) and (max-width:1280px) {
-    .products{
-        display: grid;
+    
+
+    @media only screen and (min-width:1280px) and (max-width:1368px){
+        .products{
+            margin-left: 9%;
+
+           
         } 
         .webapp{
             display: flex;
-            margin-right: 80px;
+            margin-top: 5%;
+            margin-left: 0px;
+            
         }
        
         .appinfo{
-        margin-top: -20px;
-        margin-bottom: -30px;
+        /* margin-top: 50px; */
+        margin-top: 10px;
         font-size: 20px;
-        
-        
+        /* margin-top: 30px; */
         } 
       
         .ussd{
             display: flex;
-    
+            margin-left: 0px;
+            margin-top: 5px;
+            
         }
         .ussdinfo{
             margin-top: 50px;  
-            font-size: 20px;
+            font-size: 18px;
+            margin-left: 0px;
             }
         .app{
-            font-size: 25px;
+            font-size: 30px;
+            margin-left: 0px;
+            
         }
         
-        .H1{
-            margin-left: 40%;
-            font-size: 45px;
-            padding-left: 40px;
-            text-indent: 20px;
+        .heading{
+            margin-left: 27%;
+            font-size: 35px;
+            text-indent: 90px;
+    
         
         } 
-        .img{
+        .ussdimg{
             width: 350px;
-            height: 300px;
-            margin-top: 80px;
-            margin-right: 70px;
+            height: 250px;
+            margin-top: 70px;
+            margin-left: 70px;
         }
         .webimg{
-        margin-right: 0px;
-        }   
-}    
-    
-
- @media only screen and (min-width:540px) and (max-width:720px) {
-    
-    .products{
-        margin-left: 45px;
-    } 
-    .webapp{
-        display: grid;
-    }
-   
-    .appinfo{
-    margin-top: -80px;
-    margin-bottom: -60px;
-    font-size: 20px;
-    
-    } 
-  
-    .ussd{
-        display: grid;
-
-    }
-    .ussdinfo{
-        margin-top: 60px;  
-        font-size: 20px;
+            margin-bottom: 0px;
+            margin-left: 30px;
+            padding-bottom: 40px;
         }
-    .app{
-        font-size: 25px;
-    }
-    
-    .H1{
-        margin-left: 22%;
-        font-size: 45px;
-    
-    } 
-    .img{
-        width: 300px;
-        height: 300px;
-        margin-top: -50px;
-        
-    }
-    .webimg{
-        margin-bottom: 0px;
-    }
-     }
-    
-
-@media only screen and (min-width:600px) and (max-width:1024px) {
-       
-    .products{
-        margin-left: 15px;
-    } 
-    .webapp{
-        display: flex;
-    }
-   
-    .appinfo{
-    margin-top: -80px;
-    margin-bottom: -60px;
-    font-size: 20px;
-    
-    } 
-  
-    .ussd{
-        display: grid;
-
-    }
-    .ussdinfo{
-        margin-top: 60px;  
-        font-size: 20px;
+        .topic{
+            font-size: 35px; 
+            margin-left: 0px; 
         }
-    .app{
-        font-size: 25px;
-        margin-left: 30px;
     }
-    
-    .H1{
-        margin-left: 20%;
-        font-size: 45px;
-        padding-left: 4%;
-    
-    } 
-    .img{
-        width: 350px;
-        height: 300px;
-        margin-top: 10px;
-    }
-    .webimg{
-        margin-bottom: 0px;
-        margin-left: 20px;
-    }
-} 
-
-@media only screen and (min-width:912px) and (max-width:1368px){
-   .products{
-        margin-left: 15px;
-    } 
-    .webapp{
-        display: grid;
-    }
-   
-    .appinfo{
-    margin-top: -80px;
-    margin-bottom: -60px;
-    font-size: 35px;
-    
-    } 
-  
-    .ussd{
-        display: grid;
-
-    }
-    .ussdinfo{
-        margin-top: 60px;  
-        font-size: 35px;
-        }
-    .app{
-        font-size: 25px;
-    }
-    
-    .H1{
-        margin-left: 40px;
-        font-size: 45px;
-        padding-left: 75px;
-    
-    } 
-    .img{
-        width: 350px;
-        height: 300px;
-        margin-top: 10px;
-    }
-    .webimg{
-        margin-bottom: 0px;
-    }
-    
-    
-
-} 
-
-@media only screen and (min-width:820px) and (max-width:1180px){
-   .products{
-        margin-left: 10px;
-        padding-left: 3px;
-    } 
-    .webapp{
-        display: flex;
-    }
-   
-    .appinfo{
-    margin-top: -40px;
-    margin-bottom: -60px;
-    font-size: 20px;
-    } 
-  
-    .ussd{
-        display: flex;
-
-    }
-    .ussdinfo{
-        margin-top: 60px;  
-        font-size: 20px;
-        margin-left: 25px;
-        }
-    .app{
-        font-size: 25px;
-        margin-left: 29px;
-    }
-    
-    .H1{
-        margin-left: 25%;
-        font-size: 45px;
-        text-indent: -17px;
-
-    
-    } 
-    .img{
-        width: 350px;
-        height: 300px;
-        margin-top: 70px;
-    }
-    .webimg{
-        margin-bottom: 0px;
-        margin-left: 30px;
-    }
-
-
-}
-@media only screen and (min-width:800px) and (max-width:1280px){
-.webapp{
-    display: flex;
-}
-.ussd{
-    display: flex;
-}
-.img{
-    margin-top: 60px;
-}
-.app{
-    font-size: 40px;
-}
-.H1{
-    margin-left: 33%;
-    /* padding-left: 40%; */
-}
-.products{
-    margin-left: 45px;
-} 
-}
-    
-
-
-    
-     
