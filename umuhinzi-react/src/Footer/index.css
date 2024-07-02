@@ -1,640 +1,331 @@
-.icons{
-  font-size: 35px;
-  margin: 6px;
- }
+.icons{ 
+     font-size: 35px;
+        margin: 6px;
+        } 
+
+ .pins{   
+     width: 30px;
+     }  
+
+  .email{  
+     width: 30px; 
+    }  
+
+   .umuhinzi{    
+       width: 150px;  
+       margin-left: 100px;
+       margin-bottom: 5px;  
+      }
+
+      .content{   
+         margin-top: 20px;
+      }
+
+   .socialmedia{ 
+      display: flex;   
+      gap: 10%;  
+      margin-left: 25px; 
+      margin-bottom: 20px; 
+    }  
+           
+    .tea_farm{       
+      width: 110px;  
+      height: 105px;
+      border-radius: 20px;  
+      margin-top: 20px;  
+   } 
+
+    .ussdpic{   
+     width: 110px;  
+      margin-top: 15px;
+   } 
+
+    .laptop{  
+      width: 220px;  
+      margin-left: 40px;
+    }  
+    
+    .gallerytext{  
+      margin-left: 170px; 
+      margin-top: 70px;
+    } 
+
+   .pics{ 
+     display: flex; 
+     gap: 10px;    
+     margin-right: 40px; 
+   }
+   
+   .contacts{   
+      display: flex;  
+      gap: 10px; 
+      margin-top: -4px; 
+   }  
+   
+   .contactstext{ 
+      margin-top: 50px; 
+   } 
+   
+   .exploretext{  
+      margin-top: 70px;
+   } 
+
+   .phonepin{  
+         font-size: 23px;
+         margin-top: 17px;
+   }  
+
+   .explorecontent{  
+      margin-top: 4px;
+   } 
+   
+   .footer{  
+      justify-content: center;  
+      background-color: #163E5F; 
+      display: flex;  
+      gap: 8%;   
+      color: white;
+      list-style-type: none; 
+      font-size: 18px;
+     }  
+
+     .socialmedia{ 
+      font-size: 15px;   
+      margin-bottom: 10px ; 
+    }   
+
+     .logos{
+    gap: 5px;   
+    display: flex; 
+    margin-right: 0px; 
+   }
 
 
+   @media screen and (min-width:912px){
+      .footer{
+         flex-direction: column;
 
- .pins{
-    width: 30px;
- }
+         }
 
- .email{
-   width: 30px;
- }
+      .contacts{
+       justify-content: center;
+      }
 
- .umuhinzi{
-    width: 150px;
-    margin-left: 100px;
-    margin-bottom: 5px;
- }
+      .contactstext{
+         text-align: center;
+      }
 
- .content{
-    margin-top: 20px;
-  }  
+      .explorecontent{
+        text-align: center;
+      }
 
- .socialmedia{
-    display: flex;
-    gap: 10%;
-    margin-left: 25px;
-    margin-bottom: 20px;
- }
+      .exploretext{
+         text-align: center;
+      }
 
- .tea_farm{
-    width: 110px;
-    height: 105px;
-    border-radius: 20px;
-    margin-top: 20px;
- }
+      .content{
+         text-align: center;
+      
+      }
+      .pics{ 
+         display: flex; 
+         gap: 10px;    
+         margin-left: 190px; 
+       }
+       
+   }
 
- .ussdpic{
-    width: 110px;
-    margin-top: 15px;
- }
 
- .laptop{
-    width: 220px;
-    margin-left: 40px;
- }
+@media screen and (min-width:375px) and (max-width:667px){
+   .footer{
+      flex-direction: column;
+      font-size: smaller;
+      width:auto;
+      
+   }
 
- .gallerytext{
-    margin-left: 170px;
-    margin-top: 70px;
- }
+   .icons{ 
+      font-size: 20px;
+         margin-left: 18px;
+   } 
 
- .pics{
-    display: flex;
-    gap: 10px;
-    margin-right: 40px;
- }
+   .pics{
+            flex-direction: column;
+            text-align: center;
+            
+         }
 
- .contacts{
-   display: flex; 
-    gap: 10px;
-    margin-top: -4px;
- }
+         .contacts{
+         margin-left: -150px;
+        }
 
- .contactstext{
-   margin-top: 50px;
- }
+         .email, .phonepin, .pins{
+            margin-left: 150px;
+         }
 
- .exploretext{
-    margin-top: 70px;
- }
+   .exploretext{
+      text-align: center;
+      margin-right: 40px;
+   }
 
- .phonepin{
-    font-size: 23px;
-    margin-top: 17px;
- }
+   .explorecontent{
+      text-align: center;
+      margin-right: 40px;
+   }
 
- .explorecontent{
-    margin-top: 4px;
- }
- 
- 
- .footer{
+   .umuhinzi{
+      width: 100px;
+    margin-left: -60px;                                                                                                                                                                                                                                                                                      
+   }
+
+   .content{
+      text-align: center;
+      margin-left: 0px;
+   }
+
+   }
+
+ @media screen and (min-width:280px) and (max-width:653px){
+   .footer{
+      flex-direction: column;
+      width: auto;
+      font-size: 15px;
+   }
+   .content{
+      margin-left: 5px;
+      /* justify-content: center; */
+   }
+
+   .umuhinzi{
+      margin-left: 90px;
+      width: 100px;
+   }
+
+   .explorecontent, .exploretext{
+      text-align: center;
+   }
+
+   .contactstext{
+      text-align: center;
+   }
+
+   .gallerytext{
+        margin-left: 90px;
+   }
+
+   .contacts{
+   
      justify-content: center;
-     background-color: #163E5F;
-     display: flex;
-     gap: 8%;
-     color: white;
-     list-style-type: none;
-     font-size: 18px;
- }
+     
+   } 
 
-  .socialmedia{
-    font-size: 15px;
-    margin-bottom: 10px ; 
- } 
- .logos{
-    gap: 5px;
-    display: flex;
-    margin-right: 0px;
- }
+   .pics{
+      flex-direction: column;
+      text-align: center;
+   }
 
- 
+   .icons{
+      font-size: 25px;
+   }
 
- 
-@media only screen and (min-width:280px) and (max-width:653px){
-   .pins{
-      width: 20px;
-      margin-bottom: 24px;
+   
+} 
+
+@media screen and (min-width:1024px) and (max-width:1366px){
+    /* .footer{
+      display: flex;
+      font-size: 15px;
+      width: auto;      
+   }  */
+
+   .footer{  
+      justify-content: center;  
+      background-color: #163E5F; 
+      display: flex;  
+      gap: 0;   
+      color: white;
+      list-style-type: none; 
+      font-size: 16px;
+     }
+
+   .content{
+      justify-content: center;
+   }
+
+   .umuhinzi{
+      margin-left: 70px;
+   }
+
+   .explorecontent, .exploretext{
+      text-align: center;
+   }
+
+   .contactstext{
+      text-align: center;
+   }
+
+   .gallerytext{
+        margin-left: 90px;
+   }
+
+   .contacts{
+   
+     justify-content: center;
+     
+   } 
+
+   .pics{
+      display: flex;
+      text-align: center;
+   }
+
+   .icons{
+      font-size: 25px;
+   }
+
+   .ussdpic, .tea_farm{
+     width: 60px;
+     height: 60px;
+   }
+
+   .laptop{
+      width: 110px;
+      margin-top: 20px;
+   }
+}
+
+@media screen and (min-width:412px) and (max-width:914px){
+      .umuhinzi{
+         margin-left: 190px;
+         width: 160px;
+      }
+
+      .footer{
+         font-size: 20px;
+      }
+
+      .gallerytext{
+         margin-left: 210px;
+      }
+
+      .icons{
+      margin-left: 50px;
+      gap: 4%;
+      }
+}
+
+@media screen and(min-width:540px) and (max-width:720px){
+   .umuhinzi{
+      text-align: center;
+
    }
 
    .footer{
-      width: 429px;
-   }
-
-   .email{
-      width: 20px;
-    }
-
-     .phonepin{
-    font-size: 23px;
-    margin-top: 17px;
- }
-
- .gallerytext{
-   margin-right: 0px;
- }
-
- .exploretext{
-   margin-right: 16px;
- }
-
- .contactstext{
-   margin-right: 5px;
- }
-} 
-
-@media only screen and (max-width: 667px) {
-     .footer {
-         gap: 10px; 
-         flex-direction: column; 
-         text-align: center; 
-     }
-     .icons {
-         width: 20%; 
-     }
- 
-     .footer ul{
-         list-style-type: none;
-     }
-
-     .logoprofile{
-        flex-direction: column;
-     }
-
-     .pics{
-        flex-direction: column;
-     }
-
-    .umuhinzi{
-        width: 80px;
-        margin-right: 80px;
-     }  
-
-     .contacts{
-        display: flex;
-        justify-content: center;
-        gap: 10px;
-        margin-left: 10px;
-     }
-     .pins{
-      margin-bottom: 5px;
-     }
-
-
-     .icons{
-        width: 30px; 
-        margin-right: 0px;
-     }   
-    
-
-     .socialmedia{
-        font-size: 10px;
-        margin-right:0px ;
-        justify-content: center;
-     }  
-
-     .gallerytext{
-      text-indent: -190px;
-     }
-     
- } 
-
- @media only screen and (min-width:768px) and (max-width:1024px) {
-    .footer {
-        gap: 10px; 
-        flex-direction: column; 
-        text-align: center; 
-          }
-
-    .gallerytext{
-      text-indent: -200px;
-    }
-    .icons {
-        width: 20%; 
-    }
-
-    .footer ul{
-        list-style-type: none;
-    }
-
-    .logoprofile{
-       flex-direction: column;
-    }
-
-    .pics{
-       flex-direction: column;
-       gap: 10px;
-       margin-right: 0px;
-    }
-
-   
-
-    .umuhinzi{
-       width: 150px;
-       margin-right:  0px;
-       margin-bottom: 5px;
-    }
-
-    .contacts{
-       display: flex;
-       gap: 10px;
-       margin-left: 40px;
-       justify-content: center;
-    }
-
-    .first{
-       margin-right: 16px;
-    }
-
-    .icons{
-       width: 30px; 
-       margin-right: 0px;
-    }
-   
-    .twitterIcons{
-       width: 35px; 
-       margin-top: 1px; 
-     }
-    
-    .fbIcons{
-       width: 35px;
-    }
-
-    .contactstext{
-       margin-left: 0px;
-    }
-
-    .socialmedia{
-        font-size: 10px;
-        margin-right:0px ;
-        justify-content: center;
-     } 
-     
-     
- } 
- 
- @media only screen and (min-width:540px) and (max-width:720px) {
-    .footer {
-        gap: 10px; 
-        flex-direction: column; 
-        text-align: center; 
-        width: 535px;
-    }
-    .icons {
-        width: 20%; 
-    }
-
-    .footer ul{
-        list-style-type: none;
-    }
-
-    .logoprofile{
-       flex-direction: column;
-    }
-
-    .pics{
-       flex-direction: column;
-       gap: 10px;
-       margin-right: 0px;
-    }
-
-    .gallerytext{
-       margin-right: 0px;
-    }
-
-    .umuhinzi{
-       width: 150px;
-       margin-left: 0px;
-       margin-bottom: 5px;
-    }
-
-    .contacts{
-       display: flex;
-       gap: 10px;
-       margin-left: 10px;
-    }
-
-    .first{
-       margin-right: 16px;
-    }
-
-    .icons{
-       width: 30px; 
-       margin-right: 0px;
-    }
-   
-    .twitterIcons{
-       width: 35px; 
-        margin-top: 1px; 
-    }
-    
-    .fbIcons{
-       width: 35px;
-    }
-
-    .contactstext{
-       margin-left: 0px;
-    }
-
-    .socialmedia{
-        font-size: 10px;
-        margin-right:0px ;
-        justify-content: center;
-     }
-     
- }  
- 
-@media only screen and (min-width:912px) and (max-width:1150px){  
-
-     .footer {
-      gap: 10px; 
-      display: flex;
-      padding: 20px;
-  }
- 
-
-  .pics{
-   margin-left: 10px; 
-}
-
-  .gallerytext{
-     margin-right: -20px;
-  } 
-
-  .umuhinzi{
-     width: 150px;
-     margin-left: 0px;
-  }
-
-  .contacts{
-     margin-right: 300px;
-     justify-content: center; 
-  }
-
-  .first{
-     margin-right: 16px;
-  }
-
-  .icons{
-     width: 30px; 
-     margin-right: 0px;
-  }
- 
-  .twitterIcons{
-     width: 35px; 
-    margin-top: 1px; 
-  }
-  
-  .fbIcons{
-     width: 35px;
-  } 
-
-
-
-  .socialmedia{
-      font-size: 10px;
-      margin-right:0px ;
-      justify-content: center;
-   }
-
-   .tea_farm{
-      width: 90px;
-      height: 70px;
-      border-radius: 20px;
-      margin-top: 20px;
-   }
-  
-   .ussdpic{
-      width: 70px;
-      margin-top: 15px;
-   }
-  
-   .laptop{
-      width: 150px;
-      margin-left: 0px;
-   }
-
-   .explorecontent{
-      margin-left: 0px;
-      
-   }
-}  
-
-@media only screen and (min-width:820px) and (max-width:1180px){
-    .contactstext{
-        margin-left: 300px;
-         /* justify-content: center;  */
-      }
-
-      .contacts{
-         justify-content: center;
-         margin-left: -280px;
-      }
-
-     .contactheading{
-        margin-right: 300px;
-     }
-
-     .pins{
-      margin-bottom: 20px;
-     }
-
-     .gallerytext{
-      margin-right: 10px;
-     }
-
-     .umuhinzi{
-      margin-right: 70px;
-     }
-} 
-
-@media only screen and (min-width:1151px) and (max-width:1280px){
-   .footer {
-      gap: 10px; 
-      display: flex;
-      padding: 20px;
-  }
-
-  .contactstext{
-   margin-bottom: 10px;
-  }
- 
-
-  .pics{
-   margin-left: 10px; 
-}
-
-  .umuhinzi{
-     width: 150px;
-     margin-left: 50px;
-  }
-
-  .contacts{
-     margin-right: 30px;
-     /* justify-content: center;  */
-  }
-
-  .first{
-     margin-right: 16px;
-  }
-
-  .icons{
-     width: 30px; 
-     margin-right: 0px;
-  }
- 
-  .twitterIcons{
-     width: 35px; 
-    margin-top: 1px; 
-  }
-  
-  .fbIcons{
-     width: 35px;
-  } 
-
-  .socialmedia{
-      font-size: 10px;
-      margin-right:0px ;
-      justify-content: center;
-   }
-
-   .tea_farm{
-      width: 90px;
-      height: 70px;
-      border-radius: 20px;
-      margin-top: 20px;
-   }
-  
-   .ussdpic{
-      width: 70px;
-      margin-top: 15px;
-   }
-  
-   .laptop{
-      width: 150px;
-      margin-left: 0px;
-   }
-
-   .explorecontent{
-      margin-left: 0px;
-      
-   }
-
-   .gallerytext{
-      text-indent: -170px;
-   }
-
-   
-}
-
-@media screen and (max-width:800px){
-   
-    
-    
-    
-     
-    
-     .email{
-       width: 30px;
-     }
-    
-     .umuhinzi{
-        width: 150px;
-        margin-left: 100px;
-        margin-bottom: 5px;
-     }
-    
-     .content{
-        margin-top: 20px;
-      }  
-    
-     .socialmedia{
-        display: flex;
-        gap: 10%;
-        margin-left: 25px;
-        margin-bottom: 20px;
-     }
-    
-     .tea_farm{
-        width: 110px;
-        height: 105px;
-        border-radius: 20px;
-        margin-top: 20px;
-     }
-    
-     .ussdpic{
-        width: 110px;
-        margin-top: 15px;
-     }
-    
-     .laptop{
-        width: 220px;
-        margin-left: 40px;
-     }
-    
-     .gallerytext{
-        margin-left: 170px;
-        margin-top: 70px;
-     }
-    
-     .pics{
-        display: flex;
-        gap: 10px;
-        margin-right: 40px;
-     }
-    
-     .contacts{
-        display: flex;
-        gap: 10px;
-        margin-top: -4px;
-     }
-    
-     .contactstext{
-       margin-top: 50px;
-     }
-    
-     .exploretext{
-        margin-top: 70px;
-     }
-    
-     .phonepin{
-        font-size: 23px;
-        margin-top: 17px;
-     }
-    
-     .explorecontent{
-        margin-top: 4px;
-     }
-     
-     
-     .footer{
-         justify-content: center;
-         background-color: #163E5F;
-         display: flex;
-         gap: 8%;
-         color: white;
-         list-style-type: none;
-         font-size: 18px;
-     }
-    
-      .socialmedia{
-        font-size: 15px;
-        margin-bottom: 10px ; 
-     } 
-     .logos{
-        gap: 5px;
-        display: flex;
-        margin-right: 0px;
-     }
-}
-
-@media only screen and (min-width:1024px) and (max-width:1366px){
-   .gallerytext{
-      margin-left: 180px;
+      font-size: 18px;
    }
 }
 
 
 
-    
- 
- 
- 
- 
- 
- 
- 
+
+
