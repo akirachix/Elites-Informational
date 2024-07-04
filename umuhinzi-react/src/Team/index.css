@@ -147,6 +147,7 @@
     align-items: center;
     flex-wrap: wrap;
     margin: 60px 0;
+    gap: 40px;
   }
 
   .team  {
