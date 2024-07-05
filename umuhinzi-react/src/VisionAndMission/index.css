@@ -1,0 +1,230 @@
+.missionvision {
+  background-size: cover;
+  display: flex;
+  gap: 5%;
+  width: 90%;
+  margin-top: 40px;
+  margin-left:5%;
+  color: white;
+}
+.mission {
+  padding-left: 40px;
+  padding-right: 30px;
+  border-radius: 30px;
+  width: 100%;
+  background-color: #568623;
+  font-size: 36px;}
+.vision {
+  padding-left: 40px;
+  border-radius: 30px;
+  padding-right: 30px;
+  width: 100%;
+  background-color: #568623;
+  font-size: 36px;}
+
+@media screen and (min-width:280px) and (max-width:360px){
+  .missionvision{
+  display: grid;
+  margin-top: 30px;
+  gap: 7%;
+
+ 
+  }
+  .mission {
+    padding-left: 30px;
+    border-radius: 30px;
+    width: 80%;
+    background-color: #568623;
+    font-size: 20px;
+    margin-left: -2%;
+ 
+  }
+
+  .vision {
+    padding-left: 30px;
+    border-radius: 30px;
+    width: 80%;
+    background-color: #568623;
+    font-size: 20px;
+  margin-left: -2%;
+ 
+ }
+ }
+ @media  screen and (min-width:361px) and (max-width:480px){
+  .missionvision {
+    display: grid;
+    margin-top: 30px;
+  
+   
+    }
+    .mission {
+      padding-left: 30px;
+      border-radius: 30px;
+      width: 90%;
+      background-color: #568623;
+      font-size: 20px;
+    margin-left: -3.1%;
+    }
+  
+    .vision {
+      padding-left: 30px;
+      border-radius: 30px;
+      width: 90%;
+      background-color: #568623;
+      font-size: 20px;
+    margin-left: -3.1%;
+   
+   }
+
+ }
+
+
+ @media  screen and (min-width:481px) and (max-width:680px){
+
+  .missionvision {
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex; 
+    gap: 10%;  
+    width: 80%;
+    margin-top: 40px; 
+    margin-left: 6.4%;
+ 
+    
+    
+  }
+
+  .mission {
+    padding-left: 30px;
+    border-radius: 30px;
+    width: 80%;
+    background-color: #568623;
+    font-size: 20px;
+   
+
+}
+  .vision {
+    padding-left: 30px;
+    border-radius: 30px;
+    width: 80%;
+    background-color: #568623;
+    font-size: 20px;
+    padding-right: 65px;
+
+    
+   }
+
+ }
+
+
+
+@media screen and (min-width:681px) and (max-width:880px){
+  .missionvision{
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    gap: 10%;
+    width: 90%;
+    margin-top: 40px;
+    margin-left: 5%;
+    
+  
+  }
+  .mission {
+    padding-left: 30px;
+    border-radius: 30px;
+    width: 50%;
+    background-color: #568623;
+    font-size: 20px;
+    
+}
+  .vision {
+    padding-left: 30px;
+    border-radius: 30px;
+    width: 50%;
+    background-color: #568623;
+    font-size: 20px;
+   
+  }
+ }
+
+@media  screen and (min-width:881px) and (max-width:1020px){
+  .missionvision{
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    gap: 5%;
+    width: 99%;
+    margin-top: 30px;
+    margin-left: 1.4%;
+   
+  }
+  .mission {
+    padding-left: 30px;
+    border-radius: 30px;
+    width: 40%;
+    background-color: #568623;
+    font-size: 20px;
+    ;
+  }
+  .vision {
+    padding-left: 30px;
+    border-radius: 30px;
+    width: 40%;
+    background-color: #568623;
+    font-size: 20px;}
+ }
+
+@media screen and (min-width:1021px) and (max-width:1250px){
+  .missionvision {
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    gap: 7%;
+    width: 90%;
+    margin-top: 30px;
+    margin-left: 5%;
+  }
+  .mission {
+    padding-left: 30px;
+    border-radius: 30px;
+    width: 50%;
+    background-color: #568623;
+    font-size: 20px;
+  }
+  .vision {
+    padding-left: 30px;
+    border-radius: 30px;
+    width: 50%;
+    background-color: #568623;
+    font-size: 20px;
+ }
+ }
+
+
+
+@media  screen and (min-width:1251px) and (max-width:1500px){
+  .missionvision{
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    gap: 5.8%;
+    width: 98%;
+    margin-top: 30px;
+    margin-left: 3.9%;
+  }
+  .mission {
+    padding-left: 30px;
+    border-radius: 30px;
+    width: 40%;
+    background-color: #568623;
+    font-size: 28px;}
+  .vision {
+    padding-left: 30px;
+    border-radius: 30px;
+    width: 40%;
+    background-color: #568623;
+    font-size: 28px;}
+ }
+
+

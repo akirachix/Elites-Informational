@@ -1,12 +1,12 @@
-import Vision4 from "./Mission";
+import VisionAndMission from "./VisionAndMission";
 
 
 function App() {
   return (
     <div className="App">
-       <Vision4/>
+       <VisionAndMission/>
     </div>
   );
-}
+};
 
 export default App;
