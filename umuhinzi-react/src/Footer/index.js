@@ -2,9 +2,6 @@ import './index.css';
 import umuhinzilogo from '../Images/umuhinziicon.png'
 import location from '../Images/location.svg';
 import email from '../Images/email.svg';
-import teafarm from '../Images/tea_farm.jpg';
-import ussd from '../Images/ussd-illustrations.png';
-import laptops from '../Images/laptops.png';
 import { FaFacebook, FaInstagram, FaLinkedin, FaPhoneAlt, FaTwitter } from 'react-icons/fa';
 
 
@@ -12,8 +9,8 @@ import { FaFacebook, FaInstagram, FaLinkedin, FaPhoneAlt, FaTwitter } from 'reac
 
 const Footer = ()=>{
     return(
-       <div className="footer">
-         <div className="first">
+       <div className="first">
+         <div className="footer">
 
          
          <div className="text">
@@ -74,25 +71,6 @@ const Footer = ()=>{
             
          </div>
 
-         <div>
-            <h2 className="gallerytext">Gallery</h2>
-       <div className="pics">
-         <div>
-         <img src={teafarm} alt="" className="tea_farm"/>
-         </div>
-     
-     <div>
-     <img src={ussd} alt="" className="ussdpic"/>
-     </div>
-
-     <div>
-     <img src={laptops} alt=""className="laptop"/>
-     </div>
-            
-         </div>     
-           
-           
-         </div>
 
      
        </div>
