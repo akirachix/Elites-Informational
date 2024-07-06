@@ -1,500 +1,259 @@
-.icons{ 
-     font-size: 35px;
-     margin: 6px;
-} 
+.container{
+   background-color: #163E5F;
+   display: flex;
+   color: white;
+   list-style-type: none;
+   justify-content: space-between;
+   padding: 20px;
+   margin-top: -20px;
+}
 
- .pins{   
-     width: 25px;
-     }  
+.pins{
+   width: 30px;
+}
 
-  .email{  
-     width: 25px; 
-    }  
+.contacts{
+   margin-left: 100px;
+   display: flex;
+   gap: 20px;
+   justify-content: center;
+}
 
-.umuhinzi{    
-       width: 150px;  
-       margin-left: 90px;
-       margin-bottom: 5px;  
-      }
+.socialmedia{
+   display: flex;
+   margin-left: 20%;
+   gap: 10%;
+}
 
-.content{   
-         margin-top: 20px;         
-      }
+.umuhinzi{
+   width: 50%;
+   margin-left: 25%;
+}
 
-.socialmedia{ 
-      display: flex;   
-      gap: 10%;  
-      margin-left: 25px; 
-      margin-bottom: 40px; 
-    }  
+.icons{
+   font-size: 150%;
+}
 
-    .contacts{   
-      display: flex;  
-      gap: 20px; 
-      margin-top: -4px; 
-      
-   }  
-   
-   .contactheading{
-      margin-top: 80px;
-   }
-   
-   
-.contactstext{ 
-      padding-left: 100px;
-      margin-left: 80px;
-   } 
-   
-   .exploretext{  
-      margin-top: 70px;
-   } 
+.explore-container{
+   margin-top: 35px;
+   text-align: center;
+}
 
-   .phonepin{  
-         font-size: 20px;
-         margin-top: 17px;
-   }  
+.contactheading{
+   margin-left: 50%;
+}
 
-   .explorecontent{  
-      margin-top: 4px;
-   } 
-   
-    .first{     
-      background-color: #163E5F;  
-      display: flex;       
-      color: white;
-      list-style-type: none; 
-      font-size: 15px;
-      padding-right: 80px;
-      
-      }       
- 
-   .logos{
-    gap: 5px;   
-    display: flex; 
-    margin-right: 0px; 
-   }
-   .footer{
-      padding-right: 10%;
-   }
-   .explore{
-      padding-right: 5px;
-      margin-top: 80px;
-   }
+.contacts-container{
+   margin-top: 30px;
+}
+
 
    @media screen and (min-width:280px) and (max-width:360px){
-      .first{     
-         background-color: #163E5F;  
-         flex-direction: column;       
-         color: white;
-         list-style-type: none; 
-         font-size: 20px;
-         padding-right: 80px;
-         width: 329px;
+      .container{
+         flex-direction: column;
+         font-size: 15px;
+      }
 
-         
-         } 
-   
-            .umuhinzi{
-               margin-left: 130px;
-            }
-   
-            .explore{
-               text-align: center;
-               margin-left: 100px;
-               margin-top: -0px;
-            }
-   
-            .explorecontent, .exploretext{
-               margin-top: -10px;
-            }
-   
-   
-   
-            .contactstext{
-               white-space: nowrap;
-               margin-top: -9px;           
-            }
-   
-            .contactheading{
-               margin-left: -30px;
-            }
-   
-            .contacts{
-               margin-left: -150px;
-            }
-   
-            .content{
-               text-align: center;
-               margin-left: 20px;
-               white-space: nowrap;
-            }
-   
-            .icons{
-               font-size: 30px;
-            }
-   
-            .socialmedia{
-               margin-left: 100px;
-            }
+      .contacts-container{
+         white-space: nowrap;
+         margin-right: 30%;
+         text-align: center;
+         margin-left: -30px;
+      }
+
+      .content{
+         white-space: nowrap;
+         text-align: center;
+         margin-left: -5.2%;
+         font-size: 14px;
+      
+      }
+
+      .umuhinzi{
+         width: 120px;
+         margin-left: 30%;
+      }
+
+      .socialmedia{
+         margin-left: 25%;
+      }
+
+      .pins{
+         width: 20%;
+      }
+
+     
+
+     
 
    }
 
 
    @media screen and (min-width:361px) and (max-width:480px){
-      .first{     
-         background-color: #163E5F;  
-         flex-direction: column;       
-         color: white;
-         list-style-type: none; 
-         font-size: 15px;
-         padding-right: 80px;
-         
-         
-         } 
+      .container{
+         flex-direction: column;
+      }
 
-         .umuhinzi{
-            margin-left: 50%;
-         }
+      .contacts-container{
+         white-space: nowrap;
+         margin-right: 30%;
+      }
 
-         .explore{
-            text-align: center;
-            margin-left: 100px;
-            margin-top: -0px;
-         }
+      .content{
+         text-align: center;
+      }
 
-         .explorecontent, .exploretext{
-            margin-top: -10px;
-         }
-
-
-
-         .contactstext{
-            white-space: nowrap;
-            margin-top: -9px;           
-         }
-
-         .contactheading{
-            margin-left: -10px;
-         }
-
-         .contacts{
-            margin-left: -100px;
-         }
-
-         .content{
-            text-align: center;
-            margin-left: 60px;
-            white-space: nowrap;
-         }
-
-         .icons{
-            font-size: 30px;
-         }
-
-         .socialmedia{
-            margin-left: 100px;
-         }
-
+      .socialmedia{
+         text-align: center;
+         margin-left: 30%;
+      }
+      
         
       
    }
 
 
    @media screen and (min-width:481px) and (max-width:680px){
-      .first{     
-         background-color: #163E5F;  
-         flex-direction: column;       
-         color: white;
-         list-style-type: none; 
-         font-size: 15px;
-         padding-right: 80px; 
-         width: 459px;        
-         } 
-      
-      
-   
-            .umuhinzi{
-               margin-left: 130px;
-            }
-   
-            .explore{
-               text-align: center;
-               margin-left: 100px;
-            }
-   
-            .explorecontent, .exploretext{
-               margin-top: -20px;
-            }
-   
-   
-   
-            .contactstext{
-               white-space: nowrap;
-               margin-top: -9px;           
-            }
-   
-            .contactheading{
-               margin-left: 55px;
-            }
-   
-            .contacts{
-               margin-left: -50px;
-            }
-   
-            .content{
-               text-align: center;
-               margin-left: 30px;
-               white-space: nowrap;
-            }
-   
-            .icons{
-               font-size: 30px;
-            }
-   
-            .socialmedia{
-               margin-left: 100px;
-            }
+      .container{
+         flex-direction: column;
+         font-size: 20px;
+      }
+
+      .content{
+         text-align: center;
+      }
+
+      .umuhinzi{
+         width: 30%;
+         margin-left: 180px;
+      }
+     
+      .socialmedia{
+         margin-left: 150px;
+      }
+
+      .contactheading{
+        margin-left: 38%;
+      }
+
+      .contacts{
+         margin-left: 0px;
+         white-space: nowrap;
+      }
    }
 
    @media screen and (min-width:681px) and (max-width:880px){
-      .first{     
-         background-color: #163E5F;  
-         flex-direction: column;       
-         color: white;
-         list-style-type: none; 
-         font-size: 15px;
-         padding-right: 80px;
-         width: 376px;
-         
-         }         
-   
-            .umuhinzi{
-               margin-left: 130px;
-            }
-   
-            .explore{
-               text-align: center;
-               margin-left: 100px;
-            }
-   
-            .explorecontent, .exploretext{
-               margin-top: -10px;
-            }
-   
-   
-   
-            .contactstext{
-               white-space: nowrap;
-               margin-top: -9px;           
-            }
-   
-            .contactheading{
-               margin-left: 55px;
-            }
-   
-            .contacts{
-               margin-left: -50px;
-            }
-   
-            .content{
-               text-align: center;
-               margin-left: 30px;
-               white-space: nowrap;
-            }
-   
-            .icons{
-               font-size: 30px;
-            }
-   
-            .socialmedia{
-               margin-left: 100px;
-            }
+      .container{
+         flex-direction: column;
+         font-size: 35px;
+      }
+
+     .umuhinzi{
+      width: 250px;
+      margin-left: 35%;
+     }
+     .content{
+      text-align: center;
+     }
+
+     .socialmedia{
+      justify-content: center;
+      margin-right: 200px;
+     }
+
+     .contactheading{
+      margin-left: 38%;
+     }
+
+     .contacts{
+   margin-left: 0px;
+     }
+
+     .pins{
+      width: 6%;
+     }
+
       
-   }
+    
+      
+   } 
 
    @media screen and (min-width:881px) and (max-width:1020px){
-      .first{     
-         background-color: #163E5F;  
-         flex-direction: column;       
-         color: white;
-         list-style-type: none; 
-         font-size: 40px;
-         padding-right: 80px;        
-         
-         }          
-   
-            .umuhinzi{
-               margin-left: 300px;
-               width: 200px;
-            }
-   
-            .explore{
-               text-align: center;
-               margin-left: 100px;
-               margin-top: -0px;
-            }
-   
-            .explorecontent, .exploretext{
-               margin-top: -10px;
-            }
-   
-   
-   
-            .contactstext{
-               white-space: nowrap;
-               margin-top: -9px;           
-            }
-   
-            .contactheading{
-               margin-left: 130px;
-            }
-   
-            .contacts{
-               margin-left: -70px;
-            }
-   
-            .content{
-               text-align: center;
-               margin-left: 70px;
-               white-space: nowrap;
-            }
-   
-            .icons{
-               font-size: 50px;
-            }
-   
-            .socialmedia{
-               margin-left: 200px;
-            }
+      .container{
+         flex-direction: column;
+         font-size: 35px;
+      }
 
-            .phonepin{
-               font-size: 40px;
-               margin-top: 30px;
-            }
+     .umuhinzi{
+      width: 250px;
+      margin-left: 35%;
+     }
+     .content{
+      text-align: center;
+     }
 
-            .email{
-               width: 50px;
-            }
+     .socialmedia{
+      justify-content: center;
+      margin-right: 200px;
+     }
 
-            .pins{
-               width: 50px;
-            }
-      
+     .contactheading{
+      margin-left: 38%;
+     }
+
+     .contacts{
+   margin-left: 0px;
+     }
+
+     .pins{
+      width: 6%;
+     }
+
    }
 
- @media screen and (min-width:1021px) and (max-width:1250px){
-      .first{     
-         background-color: #163E5F;  
-         display: flex;       
-         color: white;
-         list-style-type: none; 
-         font-size: 15px;
-         padding-right: 80px;
-         
-         
-         } 
+   @media screen and (min-width:1021px) and (max-width:1250px){
 
-   
-            .umuhinzi{
-               margin-left: 130px;
-            }
-   
-            .explore{
-               text-align: center;
-               margin-left: 100px;
-            }
-   
-            .explorecontent, .exploretext{
-               margin-top: -10px;
-            }
-   
-   
-   
-            .contactstext{
-               white-space: nowrap;
-               margin-top: -9px;           
-            }
-   
-            .contactheading{
-               margin-left: 55px;
-            }
-   
-            .contacts{
-               margin-left: -50px;
-            }
-   
-            .content{
-               text-align: center;
-               margin-left: 30px;
-               white-space: nowrap;
-            }
-   
-            .icons{
-               font-size: 30px;
-            }
-   
-            .socialmedia{
-               margin-left: 100px;
-            }
+
       
-   } 
+
+   }
+
+
    
  @media screen and (min-width:1251px) and (max-width:1500px){
-      .first{     
-         background-color: #163E5F;  
-         display: flex;     
-         color: white;
-         list-style-type: none; 
-         font-size: 15px;
-         padding-right: 80px;        
-         
-         } 
-      
 
-        
-   
-            .umuhinzi{
-               margin-left: 130px;
-            }
-   
-            .explore{
-               text-align: center;
-               margin-left: 100px;
-            }
-   
-            .explorecontent, .exploretext{
-               margin-top: -10px;
-            }
-   
-   
-   
-            .contactstext{
-               white-space: nowrap;
-               margin-top: -9px;           
-            }
-   
-            .contactheading{
-               margin-left: 55px;
-            }
-   
-            .contacts{
-               margin-left: -50px;
-            }
-   
-            .content{
-               text-align: center;
-               margin-left: 30px;
-               white-space: nowrap;
-            }
-   
-            .icons{
-               font-size: 30px;
-            }
-   
-            .socialmedia{
-               margin-left: 100px;
-            }
-   } 
+   /* .container{
+      flex-direction: column;
+      font-size: 35px;
+   }
+
+  .umuhinzi{
+   width: 250px;
+
+  }
+  .content{
+   text-align: center;
+  }
+
+  .socialmedia{
+   justify-content: center;
+
+  }
+
+  .contactheading{
+   margin-left: 38%;
+  }
+
+  .contacts{
+margin-left: 0px;
+  }
+
+  .pins{
+   width: 6%;
+  } */
+
+     
+   }  
 
  
 

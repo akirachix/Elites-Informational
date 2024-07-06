@@ -2,6 +2,7 @@ import './index.css';
 import umuhinzilogo from '../Images/umuhinziicon.png'
 import location from '../Images/location.svg';
 import email from '../Images/email.svg';
+import telephone from '../Images/telephone.svg';
 import { FaFacebook, FaInstagram, FaLinkedin, FaPhoneAlt, FaTwitter } from 'react-icons/fa';
 
 
@@ -9,8 +10,8 @@ import { FaFacebook, FaInstagram, FaLinkedin, FaPhoneAlt, FaTwitter } from 'reac
 
 const Footer = ()=>{
     return(
-       <div className="first">
-         <div className="footer">
+       <div className="container">
+         <div className="first-set">
 
          
          <div className="text">
@@ -19,27 +20,29 @@ const Footer = ()=>{
          </div>
          
          <div className="socialmedia">
-            <div>
-               <FaInstagram className='icons' />
+           
+            
+            <div className='icons'>
+               <FaFacebook/>
+             </div>
+            
+            <div className='icons'> 
+            <FaLinkedin />
             </div>
             
-            <div>
-               <FaFacebook className='icons'/>
-                       </div>
-            
-            <div> 
-            <FaLinkedin className='icons' />
+            <div className='icons'>
+            <FaTwitter/>
             </div>
-            
-            <div>
-            <FaTwitter className='icons'/>
+
+            <div className='icons'>
+               <FaInstagram/>
             </div>
             
          </div>
          </div>
 
-         <div className="explore">
-            <h2 className="exploretext">Explore</h2>
+         <div className="explore-container">
+            <h2 className="explore-heading">Explore</h2>
 
             <div className="explorecontent">
             <li>Home</li><br></br>
@@ -50,7 +53,7 @@ const Footer = ()=>{
             
          </div>
 
-         <div className="contactstext">
+         <div className="contacts-container">
             <h2 className="contactheading">Contacts</h2>
 
             <div className="contacts">
@@ -59,13 +62,13 @@ const Footer = ()=>{
             </div>
             
             <div className="contacts">
-               <FaPhoneAlt className='phonepin'/>
-            {/* <img src={telephone} alt="" className="phonepin"/> */}
+               {/* <FaPhoneAlt className='phonepin'/> */}
+             <img src={telephone} alt="" className="pins"/> 
             <p>+ 25412345678</p>
             </div>
            
            <div className="contacts">
-           <img src={email} alt= "" className="email"/>
+           <img src={email} alt= "" className="pins"/>
            <p className="gmail">elites@gmail.com</p>
            </div>
             
