@@ -36,7 +36,7 @@
     width: 80%;
     background-color: #568623;
     font-size: 20px;
-    margin-left: -2%;
+    margin-left: -1.7%;
  
   }
 
@@ -46,7 +46,7 @@
     width: 80%;
     background-color: #568623;
     font-size: 20px;
-  margin-left: -2%;
+  margin-left: -1.7%;
  
  }
  }
@@ -54,41 +54,39 @@
   .missionvision {
     display: grid;
     margin-top: 30px;
-  
-   
+    gap: 20px;
     }
     .mission {
       padding-left: 30px;
       border-radius: 30px;
-      width: 90%;
+      width: 91%;
       background-color: #568623;
       font-size: 20px;
-    margin-left: -3.1%;
+    margin-left: -4%;
     }
   
     .vision {
       padding-left: 30px;
       border-radius: 30px;
-      width: 90%;
+      width: 91%;
       background-color: #568623;
       font-size: 20px;
-    margin-left: -3.1%;
+    margin-left: -4%;
    
    }
 
  }
 
-
- @media  screen and (min-width:481px) and (max-width:680px){
+@media  screen and (min-width:481px) and (max-width:680px){
 
   .missionvision {
     background-repeat: no-repeat;
     background-size: cover;
-    display: flex; 
+    display: grid; 
     gap: 10%;  
     width: 80%;
     margin-top: 40px; 
-    margin-left: 6.4%;
+    margin-left: 11%;
  
     
     
@@ -100,6 +98,7 @@
     width: 80%;
     background-color: #568623;
     font-size: 20px;
+    margin-left: 5%;
    
 
 }
@@ -109,7 +108,8 @@
     width: 80%;
     background-color: #568623;
     font-size: 20px;
-    padding-right: 65px;
+    margin-left: 3%;
+    
 
     
    }
@@ -130,14 +130,14 @@
     
   
   }
-  .mission {
+  /* .mission {
     padding-left: 30px;
     border-radius: 30px;
     width: 50%;
     background-color: #568623;
     font-size: 20px;
     
-}
+} */
   .vision {
     padding-left: 30px;
     border-radius: 30px;
@@ -226,5 +226,58 @@
     background-color: #568623;
     font-size: 28px;}
  }
+
+ @media  screen and (min-width:414px) and (max-width:896px){
+  .vision {
+    padding-left: 30px;
+    border-radius: 30px;
+    width: 90%;
+    background-color: #568623;
+    font-size: 20px;
+  margin-left: -3%;}
+    .mission {
+      padding-left: 30px;
+      border-radius: 30px;
+      width: 90%;
+      background-color: #568623;
+      font-size: 20px;
+      margin-left: -3%;}
+ }
+
+ @media  screen and (min-width:430px) and (max-width:900px){
+  .vision {
+    padding-left: 30px;
+    border-radius: 30px;
+    width: 90%;
+    background-color: #568623;
+    font-size: 20px;
+  margin-left: -2.6%;}
+    .mission {
+      padding-left: 30px;
+      border-radius: 30px;
+      width: 90%;
+      background-color: #568623;
+      font-size: 20px;
+      margin-left: -2.6%;}
+ }
+ @media  screen and (min-width:360px) and (max-width:740px){
+  .vision {
+    padding-left: 30px;
+    border-radius: 30px;
+    width: 80%;
+    background-color: #568623;
+    font-size: 20px;
+  margin-left: 1%;}
+    .mission {
+      padding-left: 30px;
+      border-radius: 30px;
+      width: 80%;
+      background-color: #568623;
+      font-size: 20px;
+      margin-left: 1%;}
+ }
+
+
+ 
 
 
