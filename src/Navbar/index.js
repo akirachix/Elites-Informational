@@ -1,54 +1,49 @@
+
+import React, { useState } from 'react';
 import './index.css';
-import tea_farm from '../Images/tea_farm.jpg';
 import umuhinzi_logo from '../Images/umuhinzi_logo.png';
 
+const Navbar = () => {
+  const [showMenu, setShowMenu] = useState(false);
 
-const Navbar =()=>{
-  return(
-    
-     <div className='navs'>
-     <div className = 'logo_navbar'>
-     <div>
-      
-     <img className ='logo' src={umuhinzi_logo} alt='umuhinzi_logo'/>
-     </div>
-        <div className ='navbar'>
-        
-        <li>Home</li>
-        <li>About Us</li>
-        <li>Mission</li>
-        <li>Vision</li>
-        <li>Products</li>
-        <li>Our team</li>
+  const toggleMenu = () => {
+    setShowMenu(!showMenu);
+  };
+
+  return (
+    <div className='navs'>
+      <div className='logo_navbar'>
+        <div>
+          <img className='logo' src={umuhinzi_logo} alt='umuhinzi_logo' />
+        </div>
+        <div className='navbar'>
+          <li>Home</li>
+          <li>About</li>
+          <li>Mission</li>
+          <li>Vision</li>
+          <li>Products</li>
+          <li>Team</li>
+        </div>
+         <div className='hamburger' onClick={toggleMenu}>
+          <div className='bar'></div>
+          <div className='bar'></div>
+          <div className='bar'></div>
+        </div> 
       </div>
-     
-      
+
+      {showMenu && (
+        <div className='menu'>
+          <li>Home</li>
+          <li>About Us</li>
+          <li>Mission</li>
+          <li>Vision</li>
+          <li>Products</li>
+          <li>Our team</li>
         </div>
-     <div className='landing_page'>
-           <div className='text'>
+      )}
+    </div>
+  );
+};
 
+export default Navbar;
 
-          <h1>Empowering Agriculture</h1>
-          <h1>for a SustainableFuture</h1>
-          <div/>
-
-
-        <div className='button'>
-        <button className='button_blue'>Join Now</button>
-        <button className='button_white'>Learn More</button>
-        </div>
-     </div>
-
-
-       <div>
-        <img className='farm_pic' src={tea_farm} alt='tea farm'/>
-       </div>
-  
-     </div>
- 
-
-
-     </div>
-  )
-  }
-  export default Navbar;
