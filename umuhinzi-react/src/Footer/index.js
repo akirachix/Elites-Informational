@@ -1,22 +1,19 @@
 import './index.css';
-import umuhinzilogo from '../Images/umuhinziicon.png'
-import location from '../Images/location.svg';
-import email from '../Images/email.svg';
-import telephone from '../Images/telephone.svg';
-import { FaFacebook, FaInstagram, FaLinkedin, FaPhoneAlt, FaTwitter } from 'react-icons/fa';
-
-
+import umuhinzilogo from '../Images/umuhinziicon.png';
+import { FaFacebook, FaInstagram, FaLinkedin, FaTwitter } from 'react-icons/fa';
+import {CiPhone} from 'react-icons/ci';
+import {MdEmail, MdLocationOn} from 'react-icons/md';
 
 
 const Footer = ()=>{
     return(
-       <div className="container">
-         <div className="first-set">
+       <div className="footer-container">
+         <div>
 
          
-         <div className="text">
+         <div className="umuhinzidetails">
          <img src={umuhinzilogo} alt="" className="umuhinzi"/>
-         <p className="content">This platform is meant to empower you<br></br> to make decisions based on knowledge.<br></br>Knowldge is power, do not be left behind.</p>
+         <p className="content">This platform is meant to empower you<br></br> to make decisions based on knowledge.<br></br>Knowledge is power, do not be left behind.</p>
          </div>
          
          <div className="socialmedia">
@@ -44,12 +41,15 @@ const Footer = ()=>{
          <div className="explore-container">
             <h2 className="explore-heading">Explore</h2>
 
-            <div className="explorecontent">
-            <li>Home</li><br></br>
-            <li>About Us</li><br></br>
-            <li>Our Team</li><br></br>
-            <li>Mission and Vision</li>
-            </div>
+            <div className="explorecontent"> 
+               <ul className='explorecontent'>
+            <li><a href='home'>Home</a></li><br></br>
+            <li><a href='about us'>About Us</a></li><br></br>
+            <li><a href='our team'>Our Team</a></li><br></br>
+            <li><a href='mission and vision'>Mission and Vision</a></li>
+               </ul>
+            
+            </div> 
             
          </div>
 
@@ -57,19 +57,15 @@ const Footer = ()=>{
             <h2 className="contactheading">Contacts</h2>
 
             <div className="contacts">
-            <img src={location} alt="" className="pins"/>
-            <p>Ndege Road, Karen, Nairobi, Kenya</p>
+            <p> <MdLocationOn className='locationpin'/> Ndege Road, Karen, Nairobi, Kenya</p>
             </div>
             
             <div className="contacts">
-               {/* <FaPhoneAlt className='phonepin'/> */}
-             <img src={telephone} alt="" className="pins"/> 
-            <p>+ 25412345678</p>
+            <p> <CiPhone className="phoneicon"/>  +25412345678</p>
             </div>
            
            <div className="contacts">
-           <img src={email} alt= "" className="pins"/>
-           <p className="gmail">elites@gmail.com</p>
+           <p><MdEmail id='emailicon'/>     elites@gmail.com</p>
            </div>
             
          </div>
