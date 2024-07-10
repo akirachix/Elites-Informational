@@ -1,34 +1,53 @@
 import './index.css';
-import mee from '../Images/mee.jpg';
+import warga from '../Images/warga.jpg';
 import caren from '../Images/caren.jpg';
 import tracy from '../Images/tracy.jpg';
-import lnet from '../Images/lnet.png';
-import myprofile from '../Images/myprofile.jpeg';
+import linet from '../Images/linet.png';
+import christine from '../Images/christine.jpeg';
 
-const Team = () => (
-    <div className='Team'>
-        <h2 id="heading">Our Team</h2>
-        <div className='team'>
-            <div>
-          <img src= {mee} id='img1'/>
-          <p className = "text"><b>Nyawargak Gatchang</b></p>
+
+const Team = () => {
+  const teamMembers = [
+    {
+      name: 'Nyawargak Gatchang',
+      image: warga,
+      id: 'warga'
+    },
+    {
+      name: 'Caren Chepngetich',
+      image: caren,
+      id: 'caren'
+    },
+    {
+      name: 'Tracy Malonza',
+      image: tracy,
+      id: 'tracy'
+    },
+    {
+      name: 'Linet Mkandoe',
+      image: linet,
+      id: 'linet'
+    },
+    {
+      name: 'Christine Akinyi',
+      image: christine,
+      id: 'christine'
+    }
+  ];
+
+  return (
+    <div className='team-container'>
+      <h2 id="heading">Our Team</h2>
+      <div className='team'>
+        {teamMembers.map((member, index) => (
+          <div key={index}>
+            <img src={member.image} id={member.id} />
+            <p className="team-name"><b>{member.name}</b></p>
           </div>
-          <div>
-            <img src= {caren} id='img2'/>
-            <p  className = "text"><b>Caren Chepng'etich</b></p>
-            </div>
-            <div>
-            <img src= {tracy} id='img3'/>
-            <p  className = "text"><b>Tracy Malonza</b></p>
-            </div>
-            <div>
-            <img src= {lnet}id='img4'/>
-            <p  className = "text"><b>Linet Mkandoe</b></p>
-            </div>
-            <div>
-            <img src= {myprofile}id='img5'/>
-            <p className = "text"><b>Christine Akinyi</b></p>
-            </div>
-            </div>
-            </div>);
-      export default Team
+        ))}
+      </div>
+    </div>
+  );
+};
+
+export default Team;
