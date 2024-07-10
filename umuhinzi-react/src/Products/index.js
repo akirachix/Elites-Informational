@@ -9,13 +9,14 @@ function Products(){
         <div className='products'>
             <h1 className ='heading'>Products</h1>
             <div className ="productbody">
+            <img className = 'webimg'src={app} alt='app img'/>
+            </div>
               <div>
           <h5 className ='webtitle'>Umuhinzi Web App</h5>
             </div>
             <div className='webapp'>
               <div>
-           <img className = 'webimg'src={app} alt='app img'/>
-           </div>
+         
           <div className='appinfo'>
            <p>Our products will show current market prices 
           for<br/> different farming inputs,past purchases
