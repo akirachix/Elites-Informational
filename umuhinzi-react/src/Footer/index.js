@@ -73,7 +73,6 @@ const Footer = ()=>{
 
      
        </div>
-
       )
    };
    
