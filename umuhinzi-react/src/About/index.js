@@ -1,9 +1,9 @@
 import './index.css';
 
 const About = () => (
-    <div className='body'>
+    <div className='about-container'>
     <div className='aboutus'>
-        <h2 id="heading">About Us</h2>
+        <h2 id="heading-text">About Us</h2>
         <p>
         Umuhinzi platform empowers farmers by making them informed thus able to make better
         decisions. 
