@@ -1,7 +1,7 @@
-
 import React, { useState } from 'react';
 import './index.css';
 import umuhinzi_logo from '../Images/umuhinzi_logo.png';
+import { Link, animateScroll as scroll } from 'react-scroll';
 
 const Navbar = () => {
   const [showMenu, setShowMenu] = useState(false);
@@ -17,28 +17,28 @@ const Navbar = () => {
           <img className='logo' src={umuhinzi_logo} alt='umuhinzi_logo' />
         </div>
         <div className='navbar'>
-          <li>Home</li>
-          <li>About</li>
-          <li>Mission</li>
-          <li>Vision</li>
-          <li>Products</li>
-          <li>Team</li>
+          <Link to='home-section' smooth={true} duration={500}>Home</Link>
+          <Link to='about-section' smooth={true} duration={500}>About</Link>
+          <Link to='mission-section' smooth={true} duration={500}>Mission</Link>
+          <Link to='vision-section' smooth={true} duration={500}>Vision</Link>
+          <Link to='products-section' smooth={true} duration={500}>Products</Link>
+          <Link to='team-section' smooth={true} duration={500}>Team</Link>
         </div>
-         <div className='hamburger' onClick={toggleMenu}>
+        <div className='hamburger' onClick={toggleMenu}>
           <div className='bar'></div>
           <div className='bar'></div>
           <div className='bar'></div>
-        </div> 
+        </div>
       </div>
 
       {showMenu && (
         <div className='menu'>
-          <li>Home</li>
-          <li>About Us</li>
-          <li>Mission</li>
-          <li>Vision</li>
-          <li>Products</li>
-          <li>Our team</li>
+          <Link to='home-section' smooth={true} duration={500}>Home</Link>
+          <Link to='about-section' smooth={true} duration={500}>About Us</Link>
+          <Link to='mission-section' smooth={true} duration={500}>Mission</Link>
+          <Link to='vision-section' smooth={true} duration={500}>Vision</Link>
+          <Link to='products-section' smooth={true} duration={500}>Products</Link>
+          <Link to='team-section' smooth={true} duration={500}>Our Team</Link>
         </div>
       )}
     </div>
@@ -46,4 +46,3 @@ const Navbar = () => {
 };
 
 export default Navbar;
-
