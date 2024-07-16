@@ -70,9 +70,18 @@
     margin-top: 10px;
     text-align: center;
   }
+  @media only screen and (min-device-width : 280px){
+    .team-container {
+      align-self: center;
+      width: 104%;
   
+    }
+  
+
+  }
 /* Smartphones (portrait and landscape) */
 @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+
   .team {
     display: flex;
     flex-direction: row;
@@ -81,7 +90,7 @@
     flex-wrap: wrap;
     margin: 60px 0;
   }
-
+ 
   .team  {
     display: flex;
     flex-direction: column;

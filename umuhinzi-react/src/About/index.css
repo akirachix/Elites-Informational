@@ -65,3 +65,23 @@ margin: 0 10%;
     margin: 0 2.5%;
   }
 }
+
+@media only screen and (min-device-width : 280px){
+  .aboutus{
+    padding: 20px;
+    border: solid 1px gray;
+    border-radius: 20px;
+    /* font-size: 24px; */
+    color: black;
+    
+    /* margin: 0 10% ; */
+
+
+    }
+    .about-container{
+      /* margin-bottom: 4%; */
+      margin-left: 15px;
+    }
+
+
+}
