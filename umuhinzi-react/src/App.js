@@ -6,7 +6,7 @@ function App() {
   return (
     <div>
     <About/>
-  <Team/>
+    <Team/>
   </div>
   );
 }
