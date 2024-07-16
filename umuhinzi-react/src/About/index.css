@@ -1,158 +1,67 @@
-body{
-  margin-top: 6%;
+.about-container{
+  margin-bottom: 4%;
 }
-
-#heading{
+#heading-text{
   text-align: center;
   font-size: 36px;
 }
 
 .aboutus{
-padding: 30px;
+padding: 20px;
 border: solid 1px gray;
 border-radius: 20px;
 font-size: 24px;
-
-max-width: 2800px;
 color: black;
 margin: 0 10%;
 }
-/* @media screen and(max-width:667px) {
-#aboutus{
-padding: 2px;
-margin-left: 10%;
-margin-right: 10%;
-background-color: aqua;
-}
-h1{
-  margin-right: 3%;
-}
-}  */
 
-@media  screen and (min-width:375px) and(max-width:667px){
-.aboutus{
-font-size: small;
- max-width: 500px;
-}
-p{
-  font-size: 10px;
-}
-#heading{
-  text-align: center;
-}
-}
-@media screen and (max-width:896px) {
-  .aboutus{
- padding: 30px;
- margin-left: 10%;
- margin-right: 16%;
- font-size: 18px;
- max-width: 1000px;
-  }
-  h1{
-    margin-right: 4%;
-  }
-  #heading{
-    text-align: center;
+ 
+/* Media query for screens up to 1200px (e.g., large desktops) */
+@media (max-width: 1200px) {
+  .aboutus {
+    padding: 25px;
+    border-radius: 18px;
+    font-size: 22px;
+    margin: 0 8%;
   }
 }
-@media screen and (max-width:844px) {
-  .aboutus{
- padding: 30px;
- margin-left: 10%;
- margin-right: 10%;
-  }
-  p{
-    font-size: 13px;
-    text-align: left;
-  }
-  #heading{
-    text-align: center;
-  }
-  h1{
-    margin-right: 4%;
+
+/* Media query for screens up to 992px (e.g., small desktops) */
+@media (max-width: 992px) {
+  .aboutus {
+    padding: 22px;
+    border-radius: 16px;
+    font-size: 20px;
+    margin: 0 6%;
   }
 }
-@media screen and (max-width:740px) {
-  .aboutus{
- padding: 15px;
- margin: 15px;
- margin-left: 8%;
- margin-right: 8%;
- font-size: 20px;
-  }
-  #heading{
-    text-align: center;
-  }
-  h1{
-    margin-right: 4%;
+
+/* Media query for screens up to 768px (e.g., tablets) */
+@media (max-width: 768px) {
+  .aboutus {
+    padding: 20px;
+    border-radius: 15px;
+    font-size: 18px;
+    margin: 0 5%;
   }
 }
-@media screen and (max-width:1366px) {
-  .aboutus{
- padding: 30px;
- margin-left: 20%;
- margin-right: 20%;
- font-size: 20px;
+
+/* Media query for screens up to 576px (e.g., small tablets and large smartphones) */
+@media (max-width: 576px) {
+  .aboutus {
+    padding: 18px;
+    border-radius: 12px;
+    font-size: 16px;
+    margin: 0 3.5%;
   }
-  h1{
-    margin-right: 4%;
-  }
-  #heading{
-    text-align: center;
-  }
-  p{
+}
+
+/* Media query for screens up to 480px (e.g., smartphones) */
+@media (max-width: 480px) {
+  .aboutus {
+    padding: 15px;
+    border-radius: 10px;
     font-size: 14px;
+    margin: 0 2.5%;
   }
 }
- @media screen and (max-width:1366px) {
-  #aboutus{
-text-align: center;
- margin-left: 8%;
- margin-right: 8%;
- font-size: 26px;
-  }
-  #heading{
-    text-align: center;
-  }
-  h1{
-    margin-right: 4%;
-  }
-}
-@media screen and (min-width:800px) and (max-width:1280px){
-  .aboutus{
-  padding: 30px;
-  margin-left: 14%;
-margin-right: 12%;
-max-width: 600%;
-  }
-  p{
-    font-size: 17px;
-    text-align: center;
-  }
-  #heading{
-    text-align: center;
-  }
-  h1{
-    margin-right: 4%;
-  }
-}
-@media screen and (min-width:820px) and (max-width:1180px) {
-.aboutus{
-  margin-left: 16%;
-  margin-right: 17%;
-  font-size: smaller;
-}
-#heading{
-  text-align: center;
-}
-}
-@media screen and (min-width:768px){
-p{
-font-size: 20px;
-}
-}
-
-
-
-

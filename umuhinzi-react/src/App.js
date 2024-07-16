@@ -1,10 +1,13 @@
+
 import About from "./About";
+import Team from "./Team";
 
 function App() {
   return (
-    
-  <About/>
-  
+    <div>
+    <About/>
+  <Team/>
+  </div>
   );
 }
 
