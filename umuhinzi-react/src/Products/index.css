@@ -1,422 +1,169 @@
-.products{
-    margin-left: 15%;
-} 
-.webapp{
-    display: flex;
-    gap: 15%;
-}
-.appinfo{
-margin-top: 10px;
-font-size: 30px;
-}
-.ussd{
-    display: flex;
-    margin-top: 40px;
-    gap: 15%;
-} 
-
-.ussdinfo{
-    margin-top: 60px;  
-    font-size: 30px;
+.about-container{
+    margin-bottom: 4%;
+  }
+  #heading-text{
+    text-align: center;
+    font-size: 36px;
+  }
+  
+  .aboutus{
+  padding: 20px;
+  border: solid 1px gray;
+  border-radius: 20px;
+  font-size: 24px;
+  color: black;
+  margin: 0 10%;
+  }
+  @media screen and (min-width:0px) and (max-width:300px){
+    .about-container{
+      margin-bottom: 4%;
     }
-.app{
-    font-size: 30px;
-}
-
-.heading{
-    margin-left: 35%;
-    font-size: 45px;
-    padding-left: 20px;
-    text-indent: 20px;
-
-} 
-.ussdimg{
-    width: 350px;
-    height: 300px;
-    margin-top: 90px;
-    margin-right: 130px;
-}
-.webtitle{
-    font-size: 30px;
-}
-
-
-@media only screen and (min-width:280px) and (max-width:359px){
-    .products{
-        margin-left: 10px;
-    } 
-    .webapp{
-        display: grid;
-        
+    #heading-text{
+      text-align: center;
+      font-size: 36px;
     }
-    .appinfo{
-    margin-top: -15px;
-    font-size: 13px;
-    }
-    .ussd{
-        display: grid;
-        margin-top: 40px;
-        gap: 15px;
-    } 
     
-    .ussdinfo{
-        margin-top: 20px;  
-        font-size: 13px;
-        }
-    .app{
+    .aboutus{
+    padding: 20px;
+    border: solid 1px gray;
+    border-radius: 20px;
+    font-size: 24px;
+    color: black;
+    margin: 0 10%;
+    }
+  }
+  
+  @media  screen and (min-width:301px) and (max-width:400px){
+    .aboutus{
+    /* font-size: medium; */
+    width: 87%;
+    margin-left: 1%;
+     /* max-width: 500px; */
+     /* width: 600px; */
+    }
+    p{
+      font-size: 13px;
+    }
+    #heading-text{
+      text-align: center;
+      /* font-size: 36px; */
+    }
+    .about-container{
+      width: 100%;
+    }
+    #heading{
+      text-align: center;
+    }
+    }
+  @media  screen and (min-width:401px) and (max-width:680px){
+    .aboutus{
+      font-size: small;
+      width: 87%;
+      margin-left: 1.5%;
+       /* max-width: 500px; */
+       /* width: 600px; */
+      }
+      p{
         font-size: 15px;
-        /* font-weight: 6px; */
-        
-
-    }
-    
-    .heading{
-        margin-left: 67px;
-        font-size: 30px;
-        padding-left:0px;
-        
-
-    
-    } 
-    .ussdimg{
-        width: 250px;
-        height: 250px;
-        margin-top: 10px;
-        margin-right: 10px;
-    }
-
-    .webtitle{
-         font-size: 15px; 
-        
-    }
-}
-
-    
-    
-
-@media only screen and (min-width:360px) and (max-width:380px){
-    .products{
-        margin-left: 13px;
-    } 
-    .webapp{
-        display: grid;
-        
-    }
-    .appinfo{
-    margin-top: -15px;
-    font-size: 14px;
-    }
-    .ussd{
-        display: grid;
-        margin-top: 40px;
-        gap: 15px;
-    } 
-    
-    .ussdinfo{
-        margin-top: 20px;  
-        font-size: 14px;
-        }
-    .app{
+      }
+      #heading-text{
+        text-align: center;
+        font-size: 36px;
+      }
+      .about-container{
+        width: 100%;
+      }
+      #heading{
+        text-align: center;
+      }
+  }
+  
+  @media  screen and (min-width:681px) and (max-width:880px){
+    .aboutus{
+      font-size: small;
+      width: 90%;
+      margin-left: 2%;
+       /* max-width: 500px; */
+       /* width: 600px; */
+      }
+      p{
         font-size: 20px;
-    }
-    
-    .heading{
-        margin-left: 68px;
-        font-size: 34px;
-        padding-left: 1px;
-    
-    } 
-    .ussdimg{
-        width: 300px;
-        height: 300px;
-        margin-top: 10px;
-        margin-right: 10px;
-    } 
-    .webtitle{
-        font-size: 20px; 
-       
-   }
-}
- @media only screen and (min-width:381px) and (max-width:480px){
-    .products{
-        margin-left: 20px;
-    } 
-    .webapp{
-        display: grid;
-        
-    }
-    .appinfo{
-    margin-top: -15px;
-    font-size: 15px;
-    }
-    .ussd{
-        display: grid;
-        margin-top: 40px;
-        gap: 15px;
-    } 
-    
-    .ussdinfo{
-        margin-top: 20px;  
-        font-size: 15px;
-        }
-    .app{
+      }
+      #heading-text{
+        text-align: center;
+        font-size: 36px;
+      }
+      .about-container{
+        width: 100%;
+      }
+      #heading{
+        text-align: center;
+      }
+  }
+  @media  screen and (min-width:881px) and (max-width:1020px){
+    .aboutus{
+      font-size: small;
+      width: 90%;
+      margin-left: 2%;
+       /* max-width: 500px; */
+       /* width: 600px; */
+      }
+      p{
         font-size: 20px;
-        justify-content: center;
-    }
-    
-    .heading{
-        margin-left: 85px;
-        font-size: 35px;
-        padding-left: 2px;
-        
-    
-    } 
-    .ussdimg{
-        width: 300px;
-        height: 300px;
-        margin-top: 10px;
-        margin-right: 10px;
-    }  
-    .webtitle{
-        font-size: 20px; 
-       
-   } 
-}  
-@media only screen and (min-width:481px) and (max-width:580px){
-    .products{
-        margin-left: 9%;
-    } 
-    .webapp{
-        display: grid;
-        
-    }
-    .appinfo{
-    margin-top: -15px;
-    font-size: 18px;
-    }
-    .ussd{
-        display: grid;
-        margin-top: 40px;
-        gap: 15px;
-    } 
-    
-    .ussdinfo{
-        margin-top: 20px;  
-        font-size: 18px;
-        }
-    .app{
+      }
+      #heading-text{
+        text-align: center;
+        font-size: 36px;
+      }
+      .about-container{
+        width: 100%;
+      }
+      #heading{
+        text-align: center;
+      }
+  }
+  @media  screen and (min-width:1021px) and (max-width:1250px){
+    .aboutus{
+      font-size: small;
+      width: 92%;
+      margin-left: 2.5%;
+       /* max-width: 500px; */
+       /* width: 600px; */
+      }
+      p{
         font-size: 25px;
-    }
-    .heading{
-        margin-left: 15%;
-
-    }
- 
-    .ussdimg{
-        width: 300px;
-        height: 300px;
-        margin-top: 10px;
-        margin-right: 10px;
-    }
-}
-@media only screen and (min-width:681px) and (max-width:780px) {
-    .products{
-        margin-left: 20%;
-    } 
-    .webapp{
-        display: grid;
-        
-    }
-    .appinfo{
-    margin-top: -15px;
-    font-size: 20px;
-    }
-    .ussd{
-        display: grid;
-        margin-top: 40px;
-        gap: 15px;
-    } 
-    
-    .ussdinfo{
-        margin-top: 20px;  
+      }
+      #heading-text{
+        text-align: center;
+        font-size: 36px;
+      }
+      .about-container{
+        width: 100%;
+      }
+      #heading{
+        text-align: center;
+      }
+  }
+  @media  screen and (min-width:1251px) and (max-width:1500px){
+    .aboutus{
+      font-size: small;
+      width: 94%;
+      margin-left: 1.5%;
+       /* max-width: 500px; */
+       /* width: 600px; */
+      }
+      p{
         font-size: 20px;
-        }
-    .app{
-        font-size: 25px;
-    }
-    .heading{
-        margin-left: 77px;
-
-    }
- 
-    .ussdimg{
-        width: 300px;
-        height: 300px;
-        margin-top: 10px;
-        margin-right: 10px;
-    }  
-}
-
- @media only screen and (min-width:820px) and (max-width:920px){
-    .products{
-        margin-left: 10%;
-    } 
-    .webapp{
-        display: grid;
-        
-    }
-    .appinfo{
-    margin-top: -15px;
-    font-size: 26px;
-    }
-    .ussd{
-        display: grid;
-        margin-top: 40px;
-        gap: 15px;
-    } 
-    
-    .ussdinfo{
-        margin-top: 20px;  
-        font-size: 26px;
-        }
-    .app{
-        font-size: 25px;
-    }
-    
-    .heading{
-        margin-left: 25%;
-        font-size: 45px;
-    
-    } 
-    .ussdimg{
-        width: 300px;
-        height: 300px;
-        margin-top: 10px;
-        margin-right: 10px;
-    }    
-} 
- 
-    @media only screen and (min-width:921px) and (max-width:1024px) {
-        .products{
-            margin-left: -10px;
-           
-        } 
-        .webapp{
-            display: flex;
-            margin-left: 88px;
-            
-        }
-       
-        .appinfo{
-        
-        margin-top: 30px;
-        font-size: 25px;
-        
-        } 
-      
-        .ussd{
-            display: flex;
-            margin-left: 30px;
-            
-    
-        }
-        .ussdinfo{
-            margin-top: 0px;  
-            font-size: 25px;
-            margin-left: 30px;
-            }
-        .app{
-            font-size: 35px;
-            margin-left: 0px;
-            
-        }
-        
-        .H1{
-            margin-left: 30%;
-            font-size: 45px;
-            text-indent: 90px;
-    
-        
-        } 
-        .ussdimg{
-            width: 350px;
-            height: 300px;
-            margin-left: 50px;
-            margin-top: 60px;
-        
-        }
-        .webimg{
-            margin-bottom: 0px;
-            margin-left: 30px;
-            padding-bottom: 40px;
-        }
-        .webtitle{
-            font-size: 35px; 
-            margin-left: 60px; 
-        }
-    
-    
-
-    }
-    
-
-    @media only screen and (min-width:1280px) and (max-width:1368px){
-        .products{
-            margin-left: 9%;
-
-           
-        } 
-        .webapp{
-            display: flex;
-            margin-top: 5%;
-            margin-left: 0px;
-            
-        }
-       
-        .appinfo{
-        /* margin-top: 50px; */
-        margin-top: 10px;
-        font-size: 20px;
-        /* margin-top: 30px; */
-        } 
-      
-        .ussd{
-            display: flex;
-            margin-left: 0px;
-            margin-top: 5px;
-            
-        }
-        .ussdinfo{
-            margin-top: 50px;  
-            font-size: 18px;
-            margin-left: 0px;
-            }
-        .app{
-            font-size: 30px;
-            margin-left: 0px;
-            
-        }
-        
-        .heading{
-            margin-left: 27%;
-            font-size: 35px;
-            text-indent: 90px;
-    
-        
-        } 
-        .ussdimg{
-            width: 350px;
-            height: 250px;
-            margin-top: 70px;
-            margin-left: 70px;
-        }
-        .webimg{
-            margin-bottom: 0px;
-            margin-left: 30px;
-            padding-bottom: 40px;
-        }
-        .topic{
-            font-size: 35px; 
-            margin-left: 0px; 
-        }
-    }
+      }
+      #heading-text{
+        text-align: center;
+        font-size: 36px;
+      }
+      .about-container{
+        width: 100%;
+      }
+      #heading{
+        text-align: center;
+      }
+  }
+  
