@@ -6,7 +6,7 @@ const LandingPage = ()=>{
 <div className='landing_page'>
 <div>
 <div className='landing_page_text'>
-  <h1>Empowering Agriculture
+  <h1>Empowering Agriculture<br/>
   for a Sustainable Future</h1>
 </div>
 
