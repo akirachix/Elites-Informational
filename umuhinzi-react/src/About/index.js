@@ -1,7 +1,6 @@
 import './index.css';
 
 const About = () => (
-    <div id='about'>
     <div className='about-container'>
     <div className='aboutus'>
         <h2 id="heading-text">About Us</h2>
@@ -17,7 +16,7 @@ const About = () => (
             
     </div>
     </div>
-    </div>
+    
 );
 
 export default About;

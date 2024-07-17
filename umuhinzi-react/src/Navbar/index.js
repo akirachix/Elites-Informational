@@ -34,7 +34,7 @@ const Navbar = () => {
       {showMenu && (
         <div className='menu'>
           <Link to='home-section' smooth={true} duration={500}>Home</Link>
-          <Link to='about' smooth={true} duration={500}>About Us</Link>
+          <Link to='aboutus' smooth={true} duration={500}>About Us</Link>
           <Link to='mission-section' smooth={true} duration={500}>Mission</Link>
           <Link to='vision-section' smooth={true} duration={500}>Vision</Link>
           <Link to='products-section' smooth={true} duration={500}>Products</Link>
