@@ -5,9 +5,9 @@ const LandingPage = ()=>{
     return(
 <div className='landing_page'>
 <div>
-<div className='text'>
-  <h1>Empowering Agriculture</h1>
-  <h1>for a Sustainable Future</h1>
+<div className='landing_page_text'>
+  <h1>Empowering Agriculture
+  for a Sustainable Future</h1>
 </div>
 
 <div className='button'>
