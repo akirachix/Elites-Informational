@@ -1,4 +1,5 @@
 import tea_farm from '../Images/tea_farm.jpg';
+import React from 'react';
 
 const LandingPage = ()=>{
     return(
