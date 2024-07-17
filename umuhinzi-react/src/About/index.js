@@ -1,6 +1,7 @@
 import './index.css';
 
 const About = () => (
+    <div id='about'>
     <div className='about-container'>
     <div className='aboutus'>
         <h2 id="heading-text">About Us</h2>
@@ -14,6 +15,7 @@ const About = () => (
         By dialing the provided code on your phone, you will access the services we have on the web app.
         </p>
             
+    </div>
     </div>
     </div>
 );

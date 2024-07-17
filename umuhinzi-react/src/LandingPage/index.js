@@ -4,11 +4,12 @@ import React from 'react';
 const LandingPage = ()=>{
     return(
 <div className='landing_page'>
-<div text_button>
+<div>
 <div className='text'>
   <h1>Empowering Agriculture</h1>
   <h1>for a Sustainable Future</h1>
 </div>
+
 <div className='button'>
   <div>
   <button className='joinnow'>Join Now</button>
