@@ -1,8 +1,8 @@
-
-import About from "./About";
-import LandingPage from "./LandingPage";
 import Navbar from "./Navbar";
+import LandingPage from "./LandingPage";
+import About from "./About";
 import Team from "./Team";
+import Footer from './Footer';
 
 
 function App() {
@@ -12,7 +12,10 @@ function App() {
     <LandingPage/>
     <About/>
     <Team/>
+   <Footer/>
+
   </div>
+
   );
 }
 
