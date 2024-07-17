@@ -16,7 +16,6 @@ margin: 0 10%;
 }
 
  
-/* Media query for screens up to 1200px (e.g., large desktops) */
 @media (max-width: 1200px) {
   .aboutus {
     padding: 25px;
@@ -26,7 +25,7 @@ margin: 0 10%;
   }
 }
 
-/* Media query for screens up to 992px (e.g., small desktops) */
+
 @media (max-width: 992px) {
   .aboutus {
     padding: 22px;
@@ -36,7 +35,7 @@ margin: 0 10%;
   }
 }
 
-/* Media query for screens up to 768px (e.g., tablets) */
+
 @media (max-width: 768px) {
   .aboutus {
     padding: 20px;
@@ -46,7 +45,7 @@ margin: 0 10%;
   }
 }
 
-/* Media query for screens up to 576px (e.g., small tablets and large smartphones) */
+
 @media (max-width: 576px) {
   .aboutus {
     padding: 18px;
@@ -56,7 +55,6 @@ margin: 0 10%;
   }
 }
 
-/* Media query for screens up to 480px (e.g., smartphones) */
 @media (max-width: 480px) {
   .aboutus {
     padding: 15px;
@@ -71,15 +69,9 @@ margin: 0 10%;
     padding: 20px;
     border: solid 1px gray;
     border-radius: 20px;
-    /* font-size: 24px; */
     color: black;
-    
-    /* margin: 0 10% ; */
-
-
     }
     .about-container{
-      /* margin-bottom: 4%; */
       margin-left: 15px;
     }
 
