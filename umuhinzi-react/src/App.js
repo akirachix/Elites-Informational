@@ -1,4 +1,4 @@
-
+import Footer from './Footer';
 import About from "./About";
 import Team from "./Team";
 
@@ -7,7 +7,9 @@ function App() {
     <div>
     <About/>
   <Team/>
+  <Footer/>
   </div>
+
   );
 }
 
