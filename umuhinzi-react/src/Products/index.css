@@ -124,7 +124,7 @@
 
 @media screen and (min-width:301px) and (max-width:400px){
     .products{
-        margin-left: 19%;
+        margin-left: 13%;
     } 
     .webapp{
         display: block;
@@ -244,7 +244,7 @@
         width: 30%;
         height: 50%;
         margin-top: 10px;
-        margin-left: -87%;
+        margin-left: -80%;
 
     } 
     .webtitle{
@@ -314,7 +314,7 @@
         width: 30%;
         height: 50%;
         margin-top: -19%;
-        margin-left: 50%;
+        margin-left: 10%;
 
     } 
     .webtitle{

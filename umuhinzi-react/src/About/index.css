@@ -15,8 +15,49 @@ color: black;
 margin: 0 10%;
 }
 
-
-@media  screen and (min-width:375px) and(max-width:667px){
+@media  screen and (min-width:0px) and (max-width:300px){
+  .aboutus{
+  font-size: small;
+   max-width: 100px;
+   width: 400px;
+  }
+  p{
+    font-size: 10px;
+  }
+  #heading{
+    text-align: center;
+  }
+  }
+  @media screen and (min-width:301px) and (max-width:400px){
+    .aboutus{
+    font-size: small;
+     /* max-width: 100px; */
+     width: 95%;
+    }
+    p{
+      font-size: 10px;
+    }
+    #heading{
+      text-align: center;
+    }
+    .about-container{
+      width: 90%;
+    }
+    }
+    @media  screen and (min-width:401px) and (max-width:500px){
+      .aboutus{
+      font-size: small;
+       max-width: 100px;
+       width: 87%;
+      }
+      p{
+        font-size: 10px;
+      }
+      #heading{
+        text-align: center;
+      }
+      }
+@media  screen and (min-width:501px) and (max-width:667px){
 .aboutus{
 font-size: small;
  max-width: 100px;

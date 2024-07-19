@@ -21,6 +21,7 @@ function Products(){
             <p className="info">Our products will show current market prices 
           for different farming inputs,past purchases
           and transaction history and update market pricing</p>
+          
             </div>
             </div>
             
