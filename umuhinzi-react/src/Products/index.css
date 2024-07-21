@@ -622,73 +622,7 @@
 
 
 
-@media screen and (min-width:1251px) and (max-width:1500px){
-   
-    .webapp{
-        display: flex;
-        /* width: 90%; */
-        
-    }
-   
-    .ussd{
-        display: flex;
-        margin-top: 8%;
-       
-    } 
-    
-    .ussdinfo{
-       
-        font-size: 14px;
-        
-        margin-left: -28%;
-        display: block;
-        }
-    .app{
-        font-size: 20px;
-        margin-left: 35%;
-    }
-    
-    .heading{
-        margin-left: 25%;
-        font-size: 34px;
-       
-        margin-top: 20px;
-    
-    } 
-    .ussdimg{
-        width: 25%;
-        height: 90%;
-        margin-top: -15%;
-        margin-left: 92%;
 
-    } 
-    .webtitle{
-        font-size: 23px; 
-        
-        margin-top: -79%;
-        text-align: center;
-       
-       
-   }
-   .webimg{
-    
-    margin-top: -5%;
-    width: 199%;
-    
-}
-.info{
-    font-size: 20px;
-    margin-top: 3%;
-    margin-left: -21%;
-    width: 120%;
-    
-}
-.ussdtext{
-    font-size: 20px;
-    margin-top: 30px;
-    margin-left: 19%;
-}
-}
 @media screen and (min-width:540px) and (max-width:630px){
     .products{
         margin-left: 2%
