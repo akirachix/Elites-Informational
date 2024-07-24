@@ -1,0 +1,212 @@
+.missionvision {
+  background-size: cover;
+  display: flex;
+  gap: 8%;
+  margin-top: 40px;
+  margin-left:10%;
+  color: white;
+}
+.mission {
+  padding-left: 40px;
+  padding-right: 30px;
+  border-radius: 30px;
+  width: 35%;
+  background-color: #568623;
+  font-size: 27px;
+  margin-left: 0%;}
+
+.vision {
+  padding-left: 40px;
+  border-radius: 30px;
+  padding-right: 30px;
+  width: 35%;
+  background-color: #568623;
+  font-size: 27px;
+  margin-left: 2%;
+}
+  .headtext{
+    font-size: 40px;
+  }
+  @media screen and (min-width:360px) and (max-width:740px){
+    .missionvision{
+      width: 100%;
+    }
+    .mission{
+      width: 40%;
+      margin-left: 5%;
+      
+    }
+    .vision{
+      width: 90%;
+    }
+  }
+
+  @media screen and (min-width: 280px) and (max-width: 360px) {
+    .missionvision{
+      display: grid;
+      width: 50%;
+      margin-left: 3.1%;
+      margin-bottom: 39%;
+    }
+    .mission{
+      width: 89%;
+      font-size: 15px;
+    }
+    .vision{
+      width: 89%;
+      font-size: 15px;
+      margin-left: 0.8%;
+    }
+
+  }
+  /* @media screen and (min-width:800px) and (max-width:1280px){
+    .missionvision{
+      width: 50%;
+
+    }
+  } */
+
+@media screen and (min-width:360px) and (max-width:480px){
+  .missionvision{
+   display: grid;
+   width: 90%;
+  }
+  .mission{
+    width: 84.4%;
+    margin-left: -8%;
+    font-size: 16px;
+  }
+  .vision{
+    width: 84.4%;
+    margin-left: -8%;
+    margin-bottom: 120px;
+    font-size: 16px;
+  }
+  
+}
+
+
+@media screen and (min-width:412px) and (max-width:914px){
+  .missionvision{
+    display: grid;
+    width: 92%;
+    margin-left: 10%;
+    margin-bottom: -10%;
+    
+  }
+  .mission{
+font-size: 20px;
+width: 84.8%;
+  }
+  .vision{
+    font-size: 20px;
+    width: 84.8%;
+  }
+  
+}
+@media screen and (min-width:414px) and (max-width:580px){
+.missionvision{
+  width: 90%;
+}
+  .mission{
+  margin-left: -8.3%;
+  width: 86.7%;
+}
+.vision{
+  margin-left: -8.3%;
+  width: 86.7%; 
+}}
+
+
+
+@media screen and(min-width:412px) and (max-width:915px){
+  .missionvision{
+    display: grid;
+    width: 90%;
+  }
+  .mission{
+    width: 100%;
+    
+  }
+}
+@media screen and (min-width:768px) and (max-width:1024px){
+  .missionvision{
+    display: flex;
+    width: 92%;
+    margin-left: 5%;
+    gap: 5.5%;
+    margin-bottom: 2%;
+  }
+  .mission{
+font-size: 20px;
+  }
+  .vision{
+    font-size: 20px;
+  }
+  
+}
+@media screen and (min-width:912px) and (max-width:1368px){
+  .missionvision{
+    display: flex;
+    width: 87%;
+    margin-left: 6.4%;
+    gap: 3%;
+  }
+  .mission{
+font-size: 20px;
+  }
+  .vision{
+    font-size: 20px;
+  }
+  
+}
+@media screen and (min-width:430px) and (max-width:932px){
+  .missionvision{
+    width: 91%;
+  }
+  
+}
+@media screen and (min-width:390px) and (max-width:844px){
+  .missionvision{
+    width: 91%;
+  }
+}
+
+@media screen and (min-width:1024px) and (max-width:1366px){
+  .missionvision{
+    display: flex;
+    width: 93%;
+    margin-left: 8%;
+    gap: 3.5%;
+  }
+  .mission{
+font-size: 20px;
+  }
+  .vision{
+    font-size: 20px;
+  }
+  
+}
+@media screen and (min-width:540px) and (max-width:720px){
+  .missionvision{
+    display: grid;
+    width: 80%;
+    margin-left: 10.2%;
+    gap: 5.5%;
+    margin-bottom: 12%;
+  }
+  .mission{
+font-size: 20px;
+width: 100%;
+
+  }
+  .vision{
+    font-size: 20px;
+    width: 100%;
+  }
+  
+}
+
+
+
+
