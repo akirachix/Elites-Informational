@@ -19,12 +19,18 @@
 .env.production.local
 
 
+
 yarn-debug.log*
 
 
 
 .node_modules
 
+yarn-error.log
+
+
+
+npm-debug.log*
 yarn-error.log
 
 
