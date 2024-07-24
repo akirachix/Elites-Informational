@@ -81,7 +81,7 @@
   
 
   }
-/* Smartphones (portrait and landscape) */
+
 @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
 
   .team {
@@ -102,7 +102,7 @@
   
     
 } 
-/* Smartphones (portrait and landscape) */
+
 @media only screen and (min-width: 480px) and (max-width: 540px) {
   .team {
     display: flex;
@@ -123,7 +123,7 @@
   
 }
 
-/* Smartphones (portrait and landscape) */
+
 @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
   .team {
     display: flex;
@@ -144,7 +144,7 @@
   
 }
 
-/* Small devices (portrait tablets and large phones, 768px and up) */
+
 @media only screen and (min-width: 768px) and (max-width: 912px){ */
   .team {
     display: flex;
