@@ -1,36 +1,27 @@
 
-import Navbar from "./Navbar";
-import LandingPage from "./LandingPage";
+
 
 import About from "./About";
 import VisionAndMission from "./VisionAndMission";
 import Team from "./Team";
-import Footer from './Footer';
+
 
 
 
 
 function App() {
   return (
-
-    <div className="App">  
-      <About/>
-      <VisionAndMission/>
-      <Team/>
-    </div>
-)};
-
-    <div>
-    <Navbar/>
-    <LandingPage/>
+  <div>
+   
+    
     <About/>
+    <VisionAndMission/>
     <Team/>
-   <Footer/>
+   
+   </div>
+  )};
 
-  </div>
 
-  );
-}
 
 
 export default App;
