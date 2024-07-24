@@ -1,22 +1,28 @@
 import Navbar from "./Navbar";
 import LandingPage from "./LandingPage";
 import About from "./About";
+import Products from './Products';
 import Team from "./Team";
 import Footer from './Footer';
 
 
 function App() {
   return (
-    <div>
-    <Navbar/>
+    <div className="App">
+      <Navbar/>
     <LandingPage/>
-    <About/>
-    <Team/>
-   <Footer/>
+       <About/>
+      <Products/>
+      <Team/>
+    <Footer/>
+    </div>
 
-  </div>
+);
 
-  );
 }
+
+
+
+
 
 export default App;

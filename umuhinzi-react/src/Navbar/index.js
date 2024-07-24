@@ -18,10 +18,10 @@ const Navbar = () => {
         </div>
         <div className='navbar'>
           <Link to='home-section' smooth={true} duration={500}>Home</Link>
-          <Link to='about' smooth={true} duration={500}>About</Link>
+          <Link to='about-container' smooth={true} duration={500}>About</Link>
           <Link to='mission-section' smooth={true} duration={500}>Mission</Link>
           <Link to='vision-section' smooth={true} duration={500}>Vision</Link>
-          <Link to='products-section' smooth={true} duration={500}>Products</Link>
+          <Link to='products' smooth={true} duration={500}>Products</Link>
           <Link to='team-container' smooth={true} duration={500}>Team</Link>
         </div>
         <div className='hamburger' onClick={toggleMenu}>
