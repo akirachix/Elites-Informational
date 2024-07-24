@@ -31,8 +31,13 @@
      background-color: rgb(24, 172, 180);
     border: 1px solid #ddd;
     color: white;
+
     margin-top: 5%;
     margin-bottom: 0.1%;
+
+    width: 130%;
+    margin-left: -8.7%;
+
   
   
 
@@ -75,13 +80,13 @@
   @media only screen and (min-device-width : 280px){
     .team-container {
       align-self: center;
-      width: 110%;
+      width: 108.5%;
   
     }
   
 
   }
-/* Smartphones (portrait and landscape) */
+
 @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
 
   .team {
@@ -102,7 +107,7 @@
   
     
 } 
-/* Smartphones (portrait and landscape) */
+
 @media only screen and (min-width: 480px) and (max-width: 540px) {
   .team {
     display: flex;
@@ -123,7 +128,7 @@
   
 }
 
-/* Smartphones (portrait and landscape) */
+
 @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
   .team {
     display: flex;
@@ -144,8 +149,11 @@
   
 }
 
-/* Small devices (portrait tablets and large phones, 768px and up) */
-@media only screen and (min-width: 768px) and (max-width: 912px){ 
+
+
+
+@media only screen and (min-width: 768px) and (max-width: 912px){ */
+
   .team {
     display: flex;
     flex-direction: row;
