@@ -1,6 +1,3 @@
-
-
-
 import About from "./About";
 import VisionAndMission from "./VisionAndMission";
 import Team from "./Team";
