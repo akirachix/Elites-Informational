@@ -5,8 +5,9 @@
  }
   .navbar{
   display: flex;
-  gap: 40%;
+  gap: 30%;
   font-size: 20px;
+  margin-top: 20px;
 
 
   }
@@ -42,7 +43,7 @@ html{
  } 
   .landing_page{
     display: flex;
-    gap: 10%;
+    gap: 4%;
     margin-left: 10%;
   
    }
