@@ -31,13 +31,7 @@
     }
 
 
-    @media screen and(min-width:280px)and(max-width:360px) {
-        .missionvision{
-            display: grid;
-            margin-left: 5%;
-        }
-        
-    }
+  
     @media screen and(min-width:361px)and(max-width:480px) {
         .missionvision{
             display: grid;
@@ -86,9 +80,19 @@
     @media screen and (min-width:360px) and (max-width:740px){
         .missionvision{
             display: grid;
-            width: 94%;
-            margin-left: 10.4%;
+            width: 90%;
+            margin-left: 8%;
             margin-bottom: 40px;
+        }
+        .mission{
+        width: 76%;
+        margin-left: -1%;
+        font-size: 40px;
+        }
+        .vision{
+            width: 76%;
+            margin-left: -1%;
+            font-size: 40px;
         }
         
     }
@@ -98,23 +102,23 @@
             margin-left: 2%;
             font-size: 20px;
             width: 100%;
-            margin-bottom: 40px;
+            margin-bottom: 90px;
         }
         .mission{
             font-size: 20px;
-            width: 73%;
-            margin-left: 7%;
+            width: 75%;
+            margin-left: 6%;
         }
         .vision{
             font-size: 20px;
-            width: 73%;
-            margin-left: 7%;
+            width: 75%;
+            margin-left: 6%;
         }
 
     }
     @media screen and (min-width:820px) and (max-width:1180px){
         .missionvision{
-            display: flex;
+            display: grid;
             width: 90%;
             gap: 1%;
             margin-left: 1%;
@@ -128,27 +132,25 @@
         }
 
     }
-    @media screen and (min-width:540px) and(max-width:740px){
+   
+    @media screen and (min-width:912px) and (max-width:1368px){ 
         .missionvision{
-            display: grid;
-            margin-left: 2%;
-            width: 100%
+            width: 100%;
+            margin-left: 1%;
+            gap: 10%;
+            margin-bottom: 100px;
         }
-        .mission{
-            margin-left:70% ;
-        }
-        
-    }
- 
-    @media screen and (min-width:1280px) and (max-width:1350px){ 
-        .missionvision{
-            width: 88%;
-            margin-left: 3%;
-            gap: 5%;
-            margin-bottom: 80px;
         }
     
-    }
+        @media screen and (min-width:540px) and (max-width:720px){
+            .missionvision{
+               width: 93.9%;
+               margin-left: 10%;
+            }
+            
+         }
+      
+    
     
  
   

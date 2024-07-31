@@ -76,7 +76,7 @@
   @media only screen and (min-device-width : 280px){
     .team-container {
       align-self: center;
-      width: 108.5%;
+      width: 105%;
   
     }
   
@@ -123,6 +123,13 @@
 
   
 }
+@media screen and (min-width:540px) and (max-width:720px){
+      .team-container{
+         width: 108%;
+      }
+      
+   }
+
 
 
 @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {

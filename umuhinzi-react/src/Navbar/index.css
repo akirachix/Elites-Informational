@@ -315,6 +315,7 @@ html{
 
 
    }
+   
 
    @media only screen and (min-width:681px) and (max-width:880px){
     .navbar{
@@ -593,7 +594,7 @@ html{
 
       .hamburger {
         display: block;
-        margin-left: 200px;
+       margin-left: 40%;
         margin-top: 20px;
         font-weight: bold;
         
